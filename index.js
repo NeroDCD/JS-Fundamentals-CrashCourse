@@ -1,19 +1,38 @@
-// console.log(`Hello World`);
-// console.log(`I Like Figma`);
+// 1. Declaration Let x;
+// 2. Assignment x = 100;
 
-// window.alert(`This is an Alert!`);
-// window.alert(`I Like Framer`);
+// Numbers
+// let age = 29;
+// let price = 69.99;
+// let gpa = 2.1;
+// console.log(age);
+// console.log(price);
+// console.log(gpa);
+// console.log(`You are ${age} years old`);
+// console.log(`The price is $${price}`);
+// console.log(`Your GPA is: ${gpa}`);
 
-// Change text content of HTML Content > select element > change the textContent > set the text Ex(Hello World)
-document.getElementById("myHeading").textContent = `Hello World`;
+//String
+// let fname = "Nero";
+// let favoriteApp = "Figma";
+// let email = "KupalKabaBoss123@gmail.com";
+// console.log(typeof fname);
+// console.log(`Your name is ${fname}`);
+// console.log(`You like ${favoriteApp}`);
+// console.log(`Your Email is ${email}`);
 
-document.getElementById("myParagraph").textContent = `I Like Figma`;
+//Boolean
+// let online = false;
+// let forSale = true;
+// let isStudent = true;
+// console.log(`Bro is Online: ${online}`);
+// console.log(`Is this car for sale: ${forSale}`);
+// console.log(`Enrolled: ${isStudent}`);
 
-// This is a comment
+let fname = "NeroDCD";
+let age = 44;
+let isStudent = false;
 
-/*
-This
-is 
-a
-comment
-*/
+document.getElementById("p1").textContent = `Your name is ${fname}`;
+document.getElementById("p2").textContent = `You are ${age} years old`;
+document.getElementById("p3").textContent = `Enrolled: ${isStudent}`;
