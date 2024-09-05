@@ -1,4 +1,4 @@
-## Status `Ongoing`
+## Status: `Ongoing`
 # Project Overview 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv" target="_blank">
