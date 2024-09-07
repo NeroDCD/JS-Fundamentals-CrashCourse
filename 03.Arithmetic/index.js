@@ -1,40 +1,63 @@
-// Arithmetic Operators = Operands (Value, Variables, etc.)
-//                        Operators (+, -, *, /)
-//                        Example -  11 = x + 5;
+// 03. JavaScript ARITHMETIC OPERATORS
 
-//let students = 30;
-//students = students + 1;
-//students = students - 1;
-//students = students * 2;
-//students = students / 3;
+// Arithmetic Operators = Operands (Values, Variables, etc.) + Operators (+, -, *, /)
+// Example: 11 = x + 5;
 
-//Exponents (Example: students to the power of 3)
+// Basic Arithmetic Operations
+// let students = 30;
+
+// Increment by 1
+// students = students + 1;
+
+// Decrement by 1
+// students = students - 1;
+
+// Double the value
+// students = students * 2;
+
+// Divide by 3
+// students = students / 3;
+
+// Exponents (e.g., students raised to the power of 3)
 // students = students ** 3;
 
-//Modulus (gives remainder of any division)
+// Modulus (Gives the remainder of division)
 // let ExtraStudents = students % 3;
-// console.log(ExtraStudents);
+// console.log(ExtraStudents); // Logs the remainder after division
 
 // Augmented Assignment Operators
+// Adds 31 to students
 // students += 31;
-//students -= 20;
-//students *= 4;
+
+// Subtracts 20 from students
+// students -= 20;
+
+// Multiplies students by 4
+// students *= 4;
+
+// Divides students by 2
 // students /= 2;
+
+// Raises students to the power of 2
 // students **= 2;
+
+// Finds the remainder when students is divided by 2
 // students %= 2;
 
-// Increment/decrement Operators
-//students++;
-//students--;
+// Increment/Decrement Operators
+// Increments students by 1
+// students++;
 
-// Operator Precedence
-/*
-    operator precedence (from left to right)
-    1. parenthesis ()
-    2. exponents
-    3. multiplication & division & modulo
-    4. addition & subtraction
-*/
+// Decrements students by 1
+// students--;
 
-let result = (12 % 2) + 8 / 2;
+// Operator Precedence (from left to right)
+// 1. Parentheses ()
+// 2. Exponents (**)
+// 3. Multiplication (*), Division (/), Modulo (%)
+// 4. Addition (+), Subtraction (-)
+
+// Example of operator precedence
+let result = (12 % 2) + 8 / 2;  // Modulus and division are performed before addition
+// Displays the result in an HTML element with ID "result"
 document.getElementById("result").textContent = result;
