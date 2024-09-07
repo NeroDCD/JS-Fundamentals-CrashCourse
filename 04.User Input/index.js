@@ -1,4 +1,4 @@
-// 04.How to accept JavaScript USER INPUT
+// 04. How to accept JavaScript USER INPUT
 
 // 1. EASY WAY = Using window.prompt
 // This method creates a popup for the user to enter their input.
