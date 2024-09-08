@@ -1,14 +1,15 @@
 // 02. JavaScript VARIABLES
+
 // 1. Declaration
-// Declaring a variable with let
+// 📜 Declaring a variable with let
 // let x;
 
 // 2. Assignment
-// Assigning the value 100 to the variable x
+// 🎯 Assigning the value 100 to the variable x
 // x = 100;
 
 // Numbers
-// Declare variables of different number types
+// 🔢 Declare variables of different number types
 // let age = 29; // Integer
 // let price = 69.99; // Floating-point number
 // let gpa = 2.1; // Floating-point number
@@ -22,7 +23,7 @@
 // console.log(`Your GPA is: ${gpa}`); // Logs a message with GPA
 
 // String
-// Declare string variables
+// 🔠 Declare string variables
 // let fname = "Nero"; // First name
 // let favoriteApp = "Figma"; // Favorite application
 // let email = "KupalKabaBoss123@gmail.com"; // Email address
@@ -34,7 +35,7 @@
 // console.log(`Your Email is ${email}`); // Logs a message with the email
 
 // Boolean
-// Declare boolean variables
+// ✅ Declare boolean variables
 // let online = false; // Online status
 // let forSale = true; // Sale status
 // let isStudent = true; // Enrollment status
@@ -45,7 +46,7 @@
 // console.log(`Enrolled: ${isStudent}`); // Logs a message with enrollment status
 
 // Updating HTML content
-// Set the text content of HTML elements with ID "p1", "p2", and "p3"
+// 📝 Set the text content of HTML elements with ID "p1", "p2", and "p3"
 let fname = "NeroDCD"; // Updated first name
 let age = 44; // Updated age
 let isStudent = false; // Updated enrollment status
