@@ -3,8 +3,8 @@
 // 🎲 RANDOM NUMBER GENERATOR 🎲
 
 // Example:
-// let randomNum = Math.random() * 6;
-// This generates a random decimal number between 0 and 6.
+// let randomNum = Math.random() * 5;
+// This generates a random decimal number between 0 and 5.
 
 // 📝 Whole Number Example:
 // To get a whole number between 1 and 100:
