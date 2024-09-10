@@ -1,0 +1,66 @@
+body {
+  background-color: hsl(0, 0%, 13%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 100px 50px;
+  background-color: hsl(260, 16%, 18%);
+  border: 2px solid rgb(101, 52, 129);
+  border-radius: 5px;
+}
+
+label {
+  font-size: 2em;
+  font-family: monospace;
+  color: rgb(228, 161, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: rgb(228, 161, 255);
+  background-color: hsl(261, 37%, 29%);
+  border: 2px solid rgb(144, 36, 206);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#mySubmit {
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 1.5em;
+  color: rgb(228, 161, 255);
+  background-color: hsl(261, 37%, 29%);
+  border-color: rgb(127, 76, 245);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  box-sizing: border-box;
+}
+
+#mySubmit:hover {
+  background-color: hsl(261, 40%, 25%);
+}
+
+#resultElement {
+  font-size: 1.5em;
+  color: rgb(228, 161, 255);
+  margin-top: 20px;
+  text-align: center;
+}
