@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(0, 0%, 13%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+label {
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica;
+  color: rgb(187, 30, 64);
+}
+
+#myButton {
+  padding: 10px 20px;
+  margin: 10px;
+  width: 200px;
+  font-size: 1.5em;
+  color: rgb(241, 11, 61);
+  background-color: hsl(0, 31%, 20%);
+  border-color: rgb(241, 11, 61);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+#myButton:hover {
+  background-color: hsl(0, 34%, 17%);
+}
