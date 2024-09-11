@@ -45,3 +45,10 @@ mySubmit.onclick = function () {
 // 2️⃣ When the submit button is clicked, it checks the state of `myCheckbox` to determine subscription status.
 // 3️⃣ It also checks which payment method is selected among the radio buttons and updates the result accordingly.
 // 4️⃣ If no payment method is selected, it prompts the user to select one.
+
+// 🎯 Possible Use Cases:
+// 1️⃣ Form validation to ensure users have agreed to terms and conditions using a checkbox.
+// 2️⃣ Managing subscription settings (e.g., email notifications) by checking/unchecking options.
+// 3️⃣ Selecting payment methods in e-commerce (e.g., Visa, MasterCard, or PayPal) with radio buttons.
+// 4️⃣ Handling preferences (e.g., dark mode, newsletter sign-up) where users can toggle options with checkboxes.
+// 5️⃣ Configuring filter options (e.g., filtering search results by category, price range) in online shopping platforms.
