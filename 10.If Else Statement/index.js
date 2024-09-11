@@ -7,10 +7,10 @@
 // if (age >= 19) {
 //   console.log("You are an adult.");
 // } else {
-//   console.log("You are still a minor.");
+//   console.log("You are growing up!");
 // }
 // In this example, if `age` is 19 or older, it prints "You are an adult."
-// Otherwise, it prints "You are still a minor."
+// Otherwise, it prints "You are growing up!"
 
 // 📝 Example 2:
 // let time = 7;
