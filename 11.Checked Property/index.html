@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11.CHECKED PROPERTY</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="checkbox-group">
+        <input type="checkbox" id="myCheckbox" />
+        <label for="myCheckbox">Subscribe</label>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="radio-group">
+        <input type="radio" id="visaBtn" name="card" />
+        <label for="visaBtn" class="radio-label">Visa</label>
+
+        <input type="radio" id="masterCardBtn" name="card" />
+        <label for="masterCardBtn" class="radio-label">MasterCard</label>
+
+        <input type="radio" id="payPalBtn" name="card" />
+        <label for="payPalBtn" class="radio-label">PayPal</label>
+      </div>
+
+      <button type="submit" id="mySubmit">Submit</button>
+
+      <p id="subResult">🚫 Subscription not completed.</p>
+      <p id="paymentResult">🎯 You must select a payment type</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+body {
+  background-color: hsl(0, 0%, 13%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 400px;
+  padding: 100px 50px;
+  background-color: hsl(260, 16%, 18%);
+  border: 2px solid rgb(101, 52, 129);
+  border-radius: 5px;
+}
+
+.divider {
+  width: 100%;
+  border: 0;
+  height: 2px;
+  background: rgb(65, 45, 110);
+  margin: 50px 0;
+}
+
+.checkbox-group,
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.checkbox-group {
+  margin-bottom: 5px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  transform: scale(1.75);
+  accent-color: hsl(261, 37%, 29%);
+  cursor: pointer;
+}
+
+.radio-label {
+  font-size: 1.75em;
+  font-family: monospace;
+  color: rgb(63, 190, 240);
+}
+
+label {
+  font-size: 1.75em;
+  font-family: monospace;
+  color: rgb(228, 161, 255);
+  cursor: pointer;
+}
+
+#mySubmit {
+  padding: 15px 30px;
+  margin: 20px 0;
+  width: 100%;
+  font-size: 1.75em;
+  color: rgb(228, 161, 255);
+  background-color: hsl(261, 37%, 29%);
+  border: 2px solid rgb(127, 76, 245);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+#mySubmit:hover {
+  background-color: hsl(261, 40%, 25%);
+}
+
+#subResult,
+#paymentResult {
+  font-size: 1em;
+  color: #fff;
+  background-color: hsl(261, 31%, 20%);
+  border: 2px solid rgb(127, 76, 245);
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
