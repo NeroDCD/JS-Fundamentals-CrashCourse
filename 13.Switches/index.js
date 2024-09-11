@@ -4,12 +4,6 @@
 //            It helps check the same variable or expression against different values,
 //            making your code cleaner and more readable.
 
-// 🎯 Possible Use Cases in Web Development:
-// 1️⃣ Displaying different content based on the user’s selection (e.g., weekly planner or calendar).
-// 2️⃣ Applying different rules based on user input (e.g., assigning membership levels).
-// 3️⃣ Categorizing data into groups (e.g., pricing tiers, skill levels, or age ranges).
-// 4️⃣ Mapping numeric values to readable strings (e.g., HTTP status codes like 200, 404, 500).
-
 // break: ⚠️ The break ensures the switch stops after finding the matching case.
 // switch: 🔄 The switch statement checks the value of `day` against multiple cases.
 // default:  ❓ If none of the cases match, the default case runs.
@@ -79,3 +73,9 @@ console.log(letterGrade); // 🔄 Outputs the student's letter grade based on th
 // 2️⃣ Each case checks whether the `testScore` falls within a range (e.g., `testScore >= 90`).
 // 3️⃣ When `testScore = 92`, it matches the first case, assigning an A and breaking out of the switch.
 // 4️⃣ If none of the ranges match (e.g., a score below 60), the `default` case runs and assigns an F.
+
+// 🎯 Possible Use Cases in Web Development:
+// 1️⃣ Displaying different content based on the user’s selection (e.g., weekly planner or calendar).
+// 2️⃣ Applying different rules based on user input (e.g., assigning membership levels).
+// 3️⃣ Categorizing data into groups (e.g., pricing tiers, skill levels, or age ranges).
+// 4️⃣ Mapping numeric values to readable strings (e.g., HTTP status codes like 200, 404, 500).
