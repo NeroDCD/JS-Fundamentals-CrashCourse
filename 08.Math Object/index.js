@@ -90,3 +90,32 @@ console.log("📊 Max value is: " + max);
 // 📉 Minimum value among a, b, and c
 let min = Math.min(a, b, c);
 console.log("📉 Min value is: " + min);
+
+// 🎯 Possible Use Cases:
+// 1️⃣ Rounding Prices for Checkout:
+// Use `Math.round()` to round product prices to the nearest cent when displaying totals during checkout. This ensures that the amount is user-friendly and accurate.
+// Example:
+// let price = 19.567;
+// let roundedPrice = Math.round(price * 100) / 100; // Rounds to 19.57
+
+// 2️⃣ Generating Random User IDs:
+// Use `Math.random()` to generate unique random IDs for new users. This helps in creating unique identifiers quickly without needing complex algorithms.
+// Example:
+// let userId = Math.floor(Math.random() * 10000); // Generates a number between 0 and 9999
+
+// 3️⃣ Calculating Age from Birthdate:
+// Use `Math.floor()` to calculate a user's age based on their birthdate and the current date. This is helpful for forms or user profiles.
+// Example:
+// let birthYear = 1990;
+// let age = new Date().getFullYear() - birthYear; // Calculates age
+
+// 4️⃣ Normalizing Values for Charts:
+// Use `Math.max()` and `Math.min()` to normalize values before plotting them on a chart, ensuring that data fits within the chart's range.
+// Example:
+// let maxValue = Math.max(...dataArray); // Finds the highest value in dataArray
+// let minValue = Math.min(...dataArray); // Finds the lowest value in dataArray
+
+// 5️⃣ Animations and Game Mechanics:
+// Use `Math.sin()`, `Math.cos()`, and `Math.tan()` for creating smooth animations or calculating movements in games. These functions help in computing angles and positions.
+// Example:
+// let angle = Math.sin(time); // Calculates sine of the current time for smooth animation effects
