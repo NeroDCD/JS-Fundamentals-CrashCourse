@@ -1,64 +1,64 @@
-// 10. If statements in JavaScript are easy
+// 10. If statements in JavaScript are simple and powerful
 
-// 🧠 IF STATEMENTS = If a condition is true, execute some code; if not, do something else.
+// 🧠 IF STATEMENTS = If a condition is true, execute a block of code; otherwise, perform a different action.
 
 // 📝 Example 1:
-// let age = 27;
-// if (age >= 19) {
-//   console.log("You are old enough to suffer");
-// } else {
-//   console.log("Weak");
-// }
-// In this example, if `age` is 19 or older, it prints "You are old enough to suffer".
-// Otherwise, it prints "Weak".
+let age = 27;
+if (age >= 19) {
+  console.log("You are an adult.");
+} else {
+  console.log("You are still a minor.");
+}
+// In this example, if `age` is 19 or older, it prints "You are an adult."
+// Otherwise, it prints "You are still a minor."
 
 // 📝 Example 2:
-// let time = 7;
-// if (time < 12) {
-//   console.log("Good Morning!");
-// } else {
-//   console.log("Good afternoon");
-// }
+let time = 7;
+if (time < 12) {
+  console.log("Good Morning!");
+} else {
+  console.log("Good afternoon");
+}
 // If `time` is less than 12, it says "Good Morning!", otherwise, "Good afternoon".
 
 // ✅ Using Boolean Example:
-// let isAlive = true;
-// if (isAlive) {
-//   console.log("You are a 🌝");
-// } else {
-//   console.log("You are 💀👻");
-// }
-// If `isAlive` is true, it prints "You are a 🌝"; if not, "You are 💀👻".
+let isAlive = true;
+if (isAlive) {
+  console.log("You are alive and well!");
+} else {
+  console.log("No longer active.");
+}
+// If `isAlive` is true, it prints "You are alive and well!"; if not, "No longer active."
 
 // 🔀 Using Nested If Example:
-// let age = 27;
-// let hasLicense = false;
-// if (age >= 19) {
-//   console.log("You are old enough to drive 😎");
-//   if (hasLicense) {
-//     console.log("You have your license!");
-//   } else {
-//     console.log("You do not have your license yet!");
-//   }
-// } else {
-//   console.log("You must be 19+ to have a license 😢");
-// }
+let age = 27;
+let hasLicense = false;
+if (age >= 19) {
+  console.log("You are old enough to drive.");
+  if (hasLicense) {
+    console.log("You have your license!");
+  } else {
+    console.log("You need to get your license.");
+  }
+} else {
+  console.log("You must be at least 19 to drive.");
+}
 // Here, if age is 19 or older, it checks whether the person has a license or not.
-// It also nests an extra condition inside the first one.
+// A nested condition checks for driving eligibility.
 
 // 🔄 Using Else If Example:
-// let age = 0;
-// if (age >= 100) {
-//   console.log("You ok? 😁");
-// } else if (age == 0) {
-//   console.log("You can't suffer yet 😪");
-// } else if (age >= 19) {
-//   console.log("You are old enough to suffer 💀");
-// } else if (age < 0) {
-//   console.log("Your age can't be below 0 😤");
-// } else {
-//   console.log("You haven't been tested by life yet. 😊");
-// }
+let age = 0;
+if (age >= 100) {
+  console.log("You have lived a century!");
+} else if (age == 0) {
+  console.log("Just born!");
+} else if (age >= 19) {
+  console.log("You are an adult.");
+} else if (age < 0) {
+  console.log("Age can't be negative.");
+} else {
+  console.log("You are growing up!");
+}
 // This code handles multiple conditions with "else if", providing different messages for each case.
 
 // 🛠️ Simple Form Project
@@ -74,19 +74,19 @@ mySubmit.onclick = function () {
 
   if (age >= 100) {
     // 🧓 If age is 100 or more:
-    resultElement.textContent = "You ok? 😁"; // 🎉 Display the message in resultElement.
+    resultElement.textContent = "You have lived a century!"; // 🎉 Display the message in resultElement.
   } else if (age == 0) {
     // 👶 If age is exactly 0:
-    resultElement.textContent = "You can't suffer yet 😪"; // 👶 Display this message.
+    resultElement.textContent = "Just born!"; // 👶 Display this message.
   } else if (age >= 19) {
     // 🧑 If age is 19 or more:
-    resultElement.textContent = "You are old enough to suffer 💀"; // 💀 Display this message.
+    resultElement.textContent = "You are an adult."; // 💀 Display this message.
   } else if (age < 0) {
     // ❌ If age is less than 0:
-    resultElement.textContent = "Your age can't be below 0 😤"; // 🚫 Display this error message.
+    resultElement.textContent = "Age cannot be negative."; // 🚫 Display this error message.
   } else {
     // 👦 For all other ages (1-18):
-    resultElement.textContent = "You haven't been tested by life yet. 😊"; // 😊 Display this message.
+    resultElement.textContent = "You are growing up!"; // 😊 Display this message.
   }
 };
 
@@ -94,4 +94,4 @@ mySubmit.onclick = function () {
 // 1️⃣ The form takes a number input for age, processes it on button click.
 // 2️⃣ Depending on the age entered, the code checks conditions and displays a message.
 // 3️⃣ `Number(age)` ensures the input is treated as a number.
-// 4️⃣ Multiple conditions handle different scenarios like being old enough to suffer, being too young, or entering invalid numbers.
+// 4️⃣ Multiple conditions handle different scenarios like being an adult, being a child, or entering invalid values.
