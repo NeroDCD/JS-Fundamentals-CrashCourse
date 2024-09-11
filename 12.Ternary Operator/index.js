@@ -34,7 +34,7 @@ console.log(
 // 2️⃣ The ternary operator `purchaseAmount >= 100 ? 10 : 0` checks the condition and assigns the appropriate discount.
 // 3️⃣ The final total is calculated by subtracting the discount from the purchaseAmount, and it's displayed with a message.
 
-// 🎯 Possible Use Cases in Web Development:
+// 🎯 Possible Use Cases:
 // 1️⃣ Conditional rendering of UI elements based on user permissions or status (e.g., showing a "Logout" button if logged in, "Login" if not).
 // 2️⃣ Form validation (e.g., displaying error messages if a condition is not met).
 // 3️⃣ Simplifying logic for conditional styling (e.g., applying different CSS classes based on a value).
