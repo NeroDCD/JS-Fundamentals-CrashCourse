@@ -57,3 +57,13 @@ document.getElementById("mySubmit").onclick = function () {
 // 📜 Example:
 // let age: number;     // 🔠 Type annotation in TypeScript or similar languages
 // let isStudent: boolean; // 🔠 Type annotation
+
+// 🎯 Possible Use Cases:
+// 1️⃣ Configuration Settings: Set unchanging values like API URLs or default user roles.
+// 2️⃣ Mathematical Values: Use fixed values like PI for math calculations.
+// 3️⃣ Limits and Thresholds: Define limits such as the maximum file size or minimum password length.
+// 4️⃣ Application Defaults: Set default values for things like timeout durations or currency conversion rates.
+// 5️⃣ Feature Toggles: Enable or disable features based on constant settings.
+// 6️⃣ Error Codes: Use constants for common error codes or messages.
+// 7️⃣ CSS Class Names: Standardize class names for consistent styling across your app.
+// 8️⃣ Environment Settings: Manage values that change based on whether you’re in development, staging, or production.
