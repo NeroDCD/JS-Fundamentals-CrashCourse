@@ -26,7 +26,7 @@
 // 🔠 Declare string variables
 // let fname = "Nero"; // First name
 // let favoriteApp = "Figma"; // Favorite application
-// let email = "KupalKabaBoss123@gmail.com"; // Email address
+// let email = "github@gmail.com"; // Email address
 
 // Logging string variables to the console
 // console.log(typeof fname); // Logs the type of fname (string)
@@ -54,3 +54,10 @@ let isStudent = false; // Updated enrollment status
 document.getElementById("p1").textContent = `Your name is ${fname}`; // Updates the text content of the element with ID "p1"
 document.getElementById("p2").textContent = `You are ${age} years old`; // Updates the text content of the element with ID "p2"
 document.getElementById("p3").textContent = `Enrolled: ${isStudent}`; // Updates the text content of the element with ID "p3"
+
+// 🎯 Possible Use Cases:
+// 1️⃣ Storing Values: Use variables to store data such as numbers, strings, or booleans for use in calculations, conditions, or messages (e.g., storing user input, configuration settings).
+// 2️⃣ Dynamic Content: Update HTML elements with variable values to display dynamic content on web pages (e.g., showing user profiles, updating page content based on interactions).
+// 3️⃣ Data Manipulation: Perform operations on variable values to manipulate or calculate data (e.g., updating scores, adjusting prices, calculating totals).
+// 4️⃣ Type Checking: Use variables to work with different data types and ensure that data is handled appropriately (e.g., checking variable types with `typeof` for debugging or validation).
+// 5️⃣ State Management: Track and manage application state using boolean variables to control features or behaviors (e.g., managing online status, sale status, or user enrollment).
