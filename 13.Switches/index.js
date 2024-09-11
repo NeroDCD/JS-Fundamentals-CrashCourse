@@ -74,7 +74,7 @@ console.log(letterGrade); // 🔄 Outputs the student's letter grade based on th
 // 3️⃣ When `testScore = 92`, it matches the first case, assigning an A and breaking out of the switch.
 // 4️⃣ If none of the ranges match (e.g., a score below 60), the `default` case runs and assigns an F.
 
-// 🎯 Possible Use Cases in Web Development:
+// 🎯 Possible Use Cases:
 // 1️⃣ Displaying different content based on the user’s selection (e.g., weekly planner or calendar).
 // 2️⃣ Applying different rules based on user input (e.g., assigning membership levels).
 // 3️⃣ Categorizing data into groups (e.g., pricing tiers, skill levels, or age ranges).
