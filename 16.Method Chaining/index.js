@@ -30,6 +30,6 @@ console.log(username); // 🖥️ Outputs the final transformed username.
 // 🎯 Possible Use Cases:
 // 1️⃣ Formatting user input, like capitalizing names or fixing letter cases (e.g., "john DOE" → "John doe").
 // 2️⃣ Cleaning up form data before submission (e.g., removing spaces and ensuring correct casing).
-// 3️⃣ Manipulating strings in a streamlined way (e.g., converting all phone numbers to a standard format).
+// 3️⃣ Manipulating strings (e.g., converting all phone numbers to a standard format).
 // 4️⃣ Efficient code writing, reducing multiple lines of code to just one continuous statement.
 // 5️⃣ Easily chaining DOM manipulations, such as adding classes or setting attributes in one line.
