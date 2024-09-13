@@ -1,4 +1,5 @@
 // 06. JavaScript CONSTANTS
+
 // 🔒 Constants are variables that cannot be changed once assigned.
 
 // ❓ Why use constants?
