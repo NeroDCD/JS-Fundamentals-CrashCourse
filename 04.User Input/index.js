@@ -2,8 +2,8 @@
 
 // 1. EASY WAY = Using window.prompt
 // 💬 This method creates a popup for the user to enter their input.
-let username = window.prompt("What's your Username?");
-console.log(username);  // 📜 Logs the entered username to the console
+//let username = window.prompt("What's your Username?");
+//console.log(username);  // 📜 Logs the entered username to the console
 
 // 2. PROFESSIONAL WAY = Using an HTML textbox
 // 🖥️ This method uses HTML elements and JavaScript for a more interactive approach.
