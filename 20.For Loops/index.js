@@ -33,7 +33,7 @@ for (let i = 1; i <= 20; i++) { // Starts at 1, ends at 20
   console.log(i); // Log all numbers before 13 📜
 }
 
-// 🎯 Possible Use Cases for FOR LOOPS:
+// 🎯 Possible Use Cases:
 // 1️⃣ Iterating over arrays or lists to perform actions on each item (e.g., processing user data or displaying products). 🔄
 // 2️⃣ Counting up or down with defined increments or decrements (e.g., creating countdowns or looping through calendar days). ⏳
 // 3️⃣ Repeating a set of actions a fixed number of times (e.g., generating a series of elements or creating pagination). 🔢
