@@ -75,7 +75,13 @@ console.log(letterGrade); // 🔄 Outputs the student's letter grade based on th
 // 4️⃣ If none of the ranges match (e.g., a score below 60), the `default` case runs and assigns an F.
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Displaying different content based on the user’s selection (e.g., weekly planner or calendar).
-// 2️⃣ Applying different rules based on user input (e.g., assigning membership levels).
-// 3️⃣ Categorizing data into groups (e.g., pricing tiers, skill levels, or age ranges).
-// 4️⃣ Mapping numeric values to readable strings (e.g., HTTP status codes like 200, 404, 500).
+// 1️⃣ Displaying different content based on the user’s selection (e.g., weekly planner, calendar views). 📅
+// 2️⃣ Applying different rules based on user input (e.g., assigning membership levels, user roles). 🧑‍🤝‍🧑
+// 3️⃣ Categorizing data into groups (e.g., pricing tiers, skill levels, or age ranges). 💰
+// 4️⃣ Mapping numeric values to readable strings (e.g., HTTP status codes like 200, 404, 500). 🌐
+// 5️⃣ Handling various commands or actions in an application (e.g., processing user commands in a game). 🎮
+// 6️⃣ Managing different states or modes in an app (e.g., light mode vs. dark mode). 🌙🌞
+// 7️⃣ Displaying appropriate messages based on user interactions (e.g., showing success, error, or info messages). 🗨️
+// 8️⃣ Routing or redirecting users to different pages based on their choices (e.g., navigational decisions). 🔄
+// 9️⃣ Setting different behaviors for different types of input (e.g., handling various form field types). 📝
+// 🔟 Selecting and applying different themes or styles based on user preferences (e.g., applying color schemes). 🎨
