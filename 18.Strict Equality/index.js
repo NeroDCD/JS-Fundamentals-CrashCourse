@@ -38,8 +38,13 @@ if (PI !== "3.14") {
 }
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Form validation ensuring both value and type match, such as when checking for numeric inputs. 📝
-// 2️⃣ Ensuring that types are not implicitly coerced when comparing data (e.g., string vs. number). ⚙️
-// 3️⃣ Avoiding bugs by catching unintended type coercion, which could lead to incorrect logical results. 🐞
-// 4️⃣ Comparing user input to expected values while ensuring datatype matches (e.g., comparing age as a number). 🔢
-// 5️⃣ Checking configuration values to guarantee both content and type are as expected in an app's settings. 🛠️
+// 1️⃣ Form validation ensuring both value and type match (e.g., checking if an input is a numeric value and not a string). 📝
+// 2️⃣ Ensuring types are not implicitly coerced when comparing data, preventing unintended behavior (e.g., "5" vs. 5). ⚙️
+// 3️⃣ Avoiding bugs caused by type coercion, which could lead to incorrect results in logical conditions (e.g., comparisons in loops). 🐞
+// 4️⃣ Comparing user input to expected values while ensuring the data type matches (e.g., comparing age as a number, not a string). 🔢
+// 5️⃣ Validating configuration or environment variables to ensure both value and type are exactly as expected (e.g., feature flags). 🛠️
+// 6️⃣ Preventing security vulnerabilities by enforcing strict comparison in authentication logic (e.g., matching tokens). 🔐
+// 7️⃣ Checking default or fallback values in functions to guarantee proper type handling in optional parameters. 🔄
+// 8️⃣ Validating API responses or database queries where both data and types need to be accurately handled. 📊
+// 9️⃣ Ensuring compatibility between front-end and back-end data types, avoiding inconsistencies in web applications. 🕸️
+// 🔟 Handling edge cases in mathematical operations or financial calculations where type accuracy is crucial. 🔢💼
