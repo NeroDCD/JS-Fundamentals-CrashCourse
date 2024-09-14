@@ -91,7 +91,7 @@ console.log("📊 Max value is: " + max);
 let min = Math.min(a, b, c);
 console.log("📉 Min value is: " + min);
 
-// 🎯 Possible Use Cases:
+// 🎯 Math Object is best for:
 // 1️⃣ Rounding Prices for Checkout:
 // Use `Math.round()` to round product prices to the nearest cent when displaying totals during checkout. This ensures that the amount is user-friendly and accurate.
 // Example:
@@ -119,3 +119,15 @@ console.log("📉 Min value is: " + min);
 // Use `Math.sin()`, `Math.cos()`, and `Math.tan()` for creating smooth animations or calculating movements in games. These functions help in computing angles and positions.
 // Example:
 // let angle = Math.sin(time); // Calculates sine of the current time for smooth animation effects
+
+// 🎯 Possible Use Cases:
+// 1️⃣ Calculating complex mathematical formulas, such as determining the area of a circle or the hypotenuse of a triangle. 📏
+// 2️⃣ Generating random numbers for games, simulations, or dynamic content. 🎲
+// 3️⃣ Performing trigonometric calculations for animations, graphics, or simulations (e.g., sine, cosine). 🌐
+// 4️⃣ Rounding numbers for display or financial calculations (e.g., rounding to two decimal places). 💰
+// 5️⃣ Finding maximum or minimum values in a dataset for analysis or decision-making. 📊
+// 6️⃣ Calculating power and root values for scientific computations (e.g., exponential growth or decay). ⚛️
+// 7️⃣ Formatting and displaying numbers in a user-friendly way, such as with fixed decimal points or percentage. 🔢
+// 8️⃣ Generating random integers within a specific range for user selections or game mechanics. 🔄
+// 9️⃣ Converting angles between radians and degrees for various applications. 📐
+// 🔟 Creating custom mathematical functions or utilities using the built-in Math methods. 🛠️
