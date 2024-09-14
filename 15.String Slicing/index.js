@@ -61,8 +61,13 @@ console.log(username); // Output: "github"
 console.log(extension); // Output: "gmail.com"
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Extracting first names and last names from full names (e.g., splitting by spaces).
-// 2️⃣ Separating usernames and domains from email addresses.
-// 3️⃣ Trimming extra characters from data (e.g., removing file extensions or IDs).
-// 4️⃣ Extracting parts of URLs (e.g., domain, paths).
-// 5️⃣ Customizing output (e.g., displaying only the initials of a name or part of an identifier).
+// 1️⃣ Extracting first names and last names from full names by splitting strings at spaces. 👤
+// 2️⃣ Separating usernames and domains from email addresses (e.g., extracting "username" from "username@example.com"). 📧
+// 3️⃣ Trimming extra characters from file names or URLs (e.g., removing file extensions like ".jpg"). 🗂️
+// 4️⃣ Extracting specific sections of a URL (e.g., getting the path or query parameters). 🌐
+// 5️⃣ Displaying only the initials of a name by slicing the first letters of each part. ✂️
+// 6️⃣ Customizing content output (e.g., showing only part of a product description). 🛒
+// 7️⃣ Parsing log files or data strings to extract meaningful chunks (e.g., error messages). 📝
+// 8️⃣ Generating short previews or snippets from longer texts (e.g., showing a summary of an article). 📄
+// 9️⃣ Validating or extracting data from structured formats like date or time strings (e.g., getting the month from "2024-09-15"). 📅
+// 🔟 Manipulating user-generated content (e.g., censoring or masking sensitive parts of a string). 🚫
