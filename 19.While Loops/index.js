@@ -53,8 +53,13 @@ do {
 } while (!loggedIn); // Repeat the loop until the user is logged in
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Validating user input continuously until valid information is provided (e.g., name, email). ✍️
-// 2️⃣ Creating login systems that allow users multiple attempts to input correct credentials. 🔐
-// 3️⃣ Continuous monitoring of a condition that may change during the runtime of a program (e.g., waiting for a flag to turn true). ⏳
+// 1️⃣ Validating user input continuously until valid information is provided (e.g., prompting for name or email). ✍️
+// 2️⃣ Creating login systems that allow users multiple attempts to input correct credentials (e.g., username/password validation). 🔐
+// 3️⃣ Continuous monitoring of a condition that may change during the runtime of a program (e.g., waiting for a flag or event). ⏳
 // 4️⃣ Repeating a process like loading game levels or refreshing data from an API while a condition holds true. 🎮🔄
-// 5️⃣ Re-running tests in a loop until certain conditions are met for automated testing. ⚙️🔍
+// 5️⃣ Re-running tests in a loop until certain conditions are met for automated testing or simulations. ⚙️🔍
+// 6️⃣ Monitoring real-time conditions, like checking sensor data or waiting for user actions (e.g., button clicks). 📡⏲️
+// 7️⃣ Building real-time systems that depend on continuous loops, such as polling for updates or long-running services. 🔄🔌
+// 8️⃣ Handling asynchronous operations that require waiting for specific conditions to be fulfilled. ⌛
+// 9️⃣ Implementing retry mechanisms in case of failure (e.g., reattempting an API call or reconnecting to a server). 🔁
+// 🔟 Creating game loops that continuously check for player input or game state changes. 🎮
