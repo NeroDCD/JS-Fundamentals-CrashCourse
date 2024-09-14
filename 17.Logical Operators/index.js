@@ -47,13 +47,4 @@ if (!SUNNY) {
 // The NOT operator (!) inverts the value of SUNNY. If SUNNY is true, !SUNNY becomes false, and vice versa.
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Validating form inputs by ensuring multiple conditions are met (e.g., checking if both username and password fields are filled). 📝
-// 2️⃣ Checking multiple conditions in if-else statements (e.g., verifying if age is within a valid range or if a user meets all criteria). ⚖️
-// 3️⃣ Setting up fallback options by using logical operators to handle undefined or null values (e.g., providing default values). 🔄
-// 4️⃣ Inverting Boolean values to control toggling between states (e.g., switching between light 🌙 and dark ☀️ mode). 🔄
-// 5️⃣ Controlling access based on multiple permissions (e.g., ensuring a user has all required privileges before granting access). 🔐
-// 6️⃣ Combining conditions for complex decision-making (e.g., checking if a user is logged in and has admin rights). 🛠️
-// 7️⃣ Managing feature flags or enabling/disabling features based on multiple criteria (e.g., feature availability in different environments). 🏷️
-// 8️⃣ Handling complex conditional logic in loops or functions (e.g., processing multiple inputs or configuration options). 🔍
-// 9️⃣ Implementing search filters or query conditions (e.g., finding items that match certain criteria or belong to multiple categories). 🔎
-// 🔟 Optimizing performance by short-circuiting conditions in logical expressions (e.g., preventing unnecessary calculations). 🚀
+
