@@ -43,7 +43,6 @@ document.getElementById("mySubmit").onclick = function () {
 // Adding an Enter key press handler 🔍 is like adding an extra convenience, allowing them to submit their input by just pressing Enter, similar to how they might press "Enter" on a physical form to submit their response.
 
 
-
 // 🎯 Possible Use Cases:
 // 1️⃣ Simple User Prompts: Use `window.prompt` for quick and easy user input collection, suitable for simple scripts or demos. 📝
 // 2️⃣ Interactive Forms: Implement HTML textboxes and buttons for more interactive user input, suitable for web applications requiring user data submission. 📋
