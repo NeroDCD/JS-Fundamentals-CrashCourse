@@ -44,6 +44,7 @@ function function2() {
 function1(); // Calls function1, prints 3 (global 'x')
 function2(); // Calls function2, prints 3 (global 'x')
 
+
 // 🧠 Simple Analogy 🧠
 
 // 🏡 Local Scope is like having a conversation in your own home (function).
@@ -52,6 +53,7 @@ function2(); // Calls function2, prints 3 (global 'x')
 
 // 🌍 Global Scope is like having a public announcement on a big billboard.
 // Anyone can see and use the information on the billboard no matter where they are! 📢🌎
+
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Local variables to store temporary data in functions 🧮 (e.g., counters, sums).
