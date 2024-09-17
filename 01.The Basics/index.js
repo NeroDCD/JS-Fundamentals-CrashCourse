@@ -38,8 +38,6 @@ comment
 // `window.alert` is like the director calling out important notes 📢 to the audience or actors.
 //  Changing text content in HTML is like setting the script lines 📜 for the actors, so they know what to say to the audience.
 
-
-
 // 🎯 Possible Use Cases:
 // 1️⃣ Debugging: Use `console.log` to output values or messages for debugging purposes (e.g., checking variable values or confirming code execution). 🛠️
 // 2️⃣ User Notifications: Use `window.alert` to display simple messages or notifications to users (e.g., alerting users of important information or errors). 🚨
