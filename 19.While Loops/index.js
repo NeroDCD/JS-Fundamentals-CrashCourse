@@ -52,6 +52,13 @@ do {
   }
 } while (!loggedIn); // Repeat the loop until the user is logged in
 
+
+// 🧠 Simple Analogy 🧠
+// Think of `while` and `do while` loops like playing a game with different rules:
+// `while` loop: 🎮 Imagine you’re collecting coins until you have 10. You check your coin count before each round to decide if you should keep playing. If you have fewer than 10 coins, you continue. If not, you stop.
+// `do while` loop: 🎲 Now, you’re in a game where you must play at least once. After each round, you check if you have fewer than 10 coins to decide if you should play again. Even if you start with 10 or more coins, you’ll play at least once.
+
+
 // 🎯 Possible Use Cases:
 // 1️⃣ Validating user input continuously until valid information is provided (e.g., prompting for name or email). ✍️
 // 2️⃣ Creating login systems that allow users multiple attempts to input correct credentials (e.g., username/password validation). 🔐
