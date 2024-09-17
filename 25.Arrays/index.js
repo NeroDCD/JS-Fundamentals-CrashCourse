@@ -66,7 +66,6 @@ for (let fruit of fruits) {
 }
 
 // 🧠 Simple Analogy 🧠
-
 // Think of an array as a grocery basket 🧺 where each item (fruit) has its own spot (index).
 // You can add or remove items to/from the basket, search for an item, or even rearrange the items.
 // This makes arrays super useful for organizing and managing collections of data!
