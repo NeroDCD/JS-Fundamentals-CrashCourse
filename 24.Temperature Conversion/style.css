@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(0, 0%, 13%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px 30px;
+  background-color: hsl(260, 16%, 18%);
+  border: 2px solid rgb(101, 52, 129);
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(228, 161, 255);
+  font-family: monospace;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: rgb(228, 161, 255);
+  background-color: hsl(261, 37%, 29%);
+  border: 2px solid rgb(144, 36, 206);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 1.5em;
+  font-family: monospace;
+  color: rgb(228, 161, 255);
+  margin-bottom: 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px 0;
+  width: 100%;
+  font-size: 1.5em;
+  color: rgb(213, 161, 255);
+  background-color: hsl(261, 37%, 29%);
+  border: 2px solid rgb(127, 76, 245);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: hsl(261, 40%, 25%);
+}
+
+#result {
+  font-size: 1.5em;
+  color: rgb(193, 255, 113);
+  margin-top: 20px;
+  text-align: center;
+}
