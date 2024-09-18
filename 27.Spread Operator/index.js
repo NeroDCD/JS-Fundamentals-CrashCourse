@@ -17,7 +17,8 @@
 // let letters = [...username].join("-");  // 🌀 Spreads string into individual characters and joins with '-'
 // console.log(letters);    // 🖨️ Prints the letters joined by '-'
 
-//Example 3 explanation: 🍎🥕 This example combines two arrays, `fruits` and `vegetables`, along with other food items, into a single array using the spread operator, which "unpacks" the elements of both arrays into a new array.
+//Example 3 explanation: 🍎🥕 This example combines two arrays, `fruits` and `vegetables`, along with other food items, 
+//into a single array using the spread operator, which "unpacks" the elements of both arrays into a new array.
 
 let fruits = ["Apple🍎", "Orange🍊", "Banana🍌"]; // Array of fruits
 let vegetables = ["Garlic🧄", "Carrot🥕", "Broccoli🥦"]; // Array of vegetables
