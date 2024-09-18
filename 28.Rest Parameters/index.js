@@ -71,7 +71,8 @@ const fullname = combineStrings("Mr.", "Nero", "DCD"); // 🧩 Combines the stri
 console.log(fullname); // 🖨️ Prints: Mr. Nero DCD
 
 // 🧠 Simple Analogy 🧠
-// The rest parameters are like a basket 🧺 that collects multiple items into one place, allowing you to handle them together. Instead of dealing with individual items, you bundle them into a single basket (array).
+// The rest parameters are like a basket 🧺 that collects multiple items into one place, allowing you to handle them together. 
+// Instead of dealing with individual items, you bundle them into a single basket (array).
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Collecting items 🛒: Gather any number of items (like grocery list) into one array.
