@@ -21,15 +21,18 @@ function rollDice() {
 }
 
 // 🧠 Simple Analogy 🧠
-// The dice roller function is like a magic dice cup 🧙‍♂️. You tell it how many dice you want to roll, and it magically generates random numbers for each dice. Then, it displays both the numbers and images of the dice rolled, just like showing the results after shaking the cup and revealing the dice!
+// The dice roller function is like a magic dice cup 🧙‍♂️. You tell it how many dice you want to roll, and it magically generates random numbers for each dice. 
+// Then, it displays both the numbers and images of the dice rolled, just like showing the results after shaking the cup and revealing the dice!
 
 // 🎯 Possible Use Cases:
 
-// 1️⃣ Board Games 🎲: Use `const numOfDice = document.getElementById("numOfDice").value;` to determine the number of dice to roll. `const value = Math.floor(Math.random() * 6) + 1;` generates random dice values, mimicking dice rolls in games.
+// 1️⃣ Board Games 🎲: Use `const numOfDice = document.getElementById("numOfDice").value;` to determine the number of dice to roll. 
+// `const value = Math.floor(Math.random() * 6) + 1;` generates random dice values, mimicking dice rolls in games.
 // 2️⃣ Random Number Generation 🔢: `const value = Math.floor(Math.random() * 6) + 1;` generates random numbers between 1 and 6, useful for various randomization needs.
 // 3️⃣ Educational Tools 📚: `const values = [];` and `const images = [];` can be used to store results and show dice roll outcomes to teach probability concepts.
 // 4️⃣ Event Simulations 🎰: `const images.push(`<img src="dice_images/${value}.png" alt="Dice ${value}">`);` visualizes random events or outcomes, such as in a simulation.
-// 5️⃣ Interactive Web Features 🌐: Use `diceResult.textContent = `Dice: ${values.join(", ")}`;` and `diceImages.innerHTML = images.join(" ");` to display results and images interactively on a webpage.
+// 5️⃣ Interactive Web Features 🌐: Use `diceResult.textContent = `Dice: ${values.join(", ")}`;` and `diceImages.innerHTML = images.join(" ");` 
+// to display results and images interactively on a webpage.
 // 6️⃣ Game Development 🎮: Integrate the function to handle dice mechanics, showing results with `diceResult.textContent` and images with `diceImages.innerHTML`.
 // 7️⃣ Random Selection Tools 📋: `const value = Math.floor(Math.random() * 6) + 1;` randomly selects numbers, which can be adapted for choosing options or entries in applications.
 // 8️⃣ Probability Testing 📊: `const values = [];` captures multiple dice results for analysis, helping test and visualize probability distributions.
