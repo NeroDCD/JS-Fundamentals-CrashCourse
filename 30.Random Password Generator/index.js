@@ -61,9 +61,9 @@ const password = generatePassword(
 console.log(`Generated Password: ${password}`); // 🖨️ Print the generated password
 
 // 🧠 Simple Analogy 🧠
-// Imagine you have a collection of letters, numbers, and symbols (like putting different colored beads into a bag). 
-// You decide how many beads (characters) to pick and which types (lowercase, uppercase, numbers, symbols) you want to include. 
-// The function then randomly picks beads from this collection to create a unique string (password).
+// Imagine you have a collection of letters, numbers, and symbols (like putting different colored beads into a bag) 🎨.
+// You decide how many beads (characters) to pick and which types (lowercase, uppercase, numbers, symbols) you want to include 🧩.
+// The function then randomly picks beads from this collection to create a unique string (password) 🔑.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Password Creation 🔐: Generates secure passwords for user accounts or systems.
