@@ -3,7 +3,8 @@
 // Spread Operator =  ... allows an iterable such as an array or string to be
 // expanded into separate elements (unpacks the elements)
 
-//Example 1 explanation: ➕ This example uses the spread operator to pass array elements as individual arguments to Math.max() and Math.min(), allowing us to find the highest and lowest numbers.
+//Example 1 explanation: ➕ This example uses the spread operator to pass array elements as individual arguments to Math.max() and Math.min(), 
+//allowing us to find the highest and lowest numbers.
 
 // let numbers = [1, 2, 3, 4, 5];   // Array of numbers
 // let maximum = Math.max(...numbers);  // 🏆 Spreads the array and finds the maximum value
@@ -11,7 +12,8 @@
 // console.log(maximum);   // 🖨️ Prints the maximum number
 // console.log(minimum);   // 🖨️ Prints the minimum number
 
-//Example 2 explanation: ✍️ This example spreads a string into individual characters, then joins them with a dash ("-") between each letter, making the string more visually distinct.
+//Example 2 explanation: ✍️ This example spreads a string into individual characters, then joins them with a dash ("-") between each letter, 
+//making the string more visually distinct.
 
 // let username = "Nero";   // String username
 // let letters = [...username].join("-");  // 🌀 Spreads string into individual characters and joins with '-'
