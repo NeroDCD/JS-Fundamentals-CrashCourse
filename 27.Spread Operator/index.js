@@ -34,7 +34,8 @@ console.log(foods); // 🖨️ Prints the combined array of foods
 // ]
 
 // 🧠 Simple Analogy 🧠
-// The spread operator is like opening a suitcase 🧳 full of items and spreading them out on the floor. Instead of keeping them in a bundle, you're laying them out so you can use each one individually.
+// The spread operator is like opening a suitcase 🧳 full of items and spreading them out on the floor. 
+// Instead of keeping them in a bundle, you're laying them out so you can use each one individually.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Merging arrays 🌀: Combine multiple arrays into one array, like combining fruits and vegetables into a single list.
