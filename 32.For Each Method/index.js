@@ -5,10 +5,10 @@
 
 // Syntax: array.forEach(callback(element, index, array), thisArg)
 // Parameters:
-// - element: The current element being processed 🧩
-// - index (Optional): The index of the current element 🗂️
-// - array (Optional): The array on which forEach() was called 📜
-// - thisArg (Optional): Value to use as this when executing the callback 🛠️
+// 🧩 element: The current element being processed 
+// 🗂️ index (Optional): The index of the current element 
+// 📜 array (Optional): The array on which forEach() was called 
+// 🛠️ thisArg (Optional): Value to use as this when executing the callback
 
 // 1️⃣ Example 1: Printing Each Element of the Array
 // let numbers = [1, 2, 3, 4, 5]; // Array of numbers 📊
