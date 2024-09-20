@@ -63,7 +63,6 @@ player1.Stats(); // 📊 Calls the Stats method
 // Calling methods for player2 🚀
 player2.Information(); // 🗣️ Calls the Information method
 // Output: As of September 19, 2024 Magomed Khalilov ranks at 18 in the Europe leaderboard. 
-
 player2.Stats(); // 📊 Calls the Stats method
 // Output: Magomed Khalilov also known as Collapse has a 78% Match Win Rate /
 
