@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>56. COMPOUND INTEREST CALCULATOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Interest Calculator 💰</h1>
+      <form>
+        <div class="form-group">
+          <label for="principal">Principal Amount 💵:</label>
+          <input type="number" id="principal" />
+        </div>
+
+        <div class="form-group">
+          <label for="rate">Interest Rate 📈:</label>
+          <input type="number" id="rate" />
+        </div>
+
+        <div class="form-group">
+          <label for="years">Years ⏳:</label>
+          <input type="number" id="years" />
+        </div>
+
+        <button type="button" onclick="calculate()">Submit 🚀</button>
+        <p id="total">Total: <span id="total-amount">$0.00</span></p>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
