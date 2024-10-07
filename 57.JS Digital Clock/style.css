@@ -1,0 +1,31 @@
+:root {
+  --white: #ffffff;
+  --font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url(BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#clock {
+  font-family: var(--font-family);
+  font-size: 7.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--white);
+  backdrop-filter: blur(7px);
+  background-color: hsla(241, 93%, 54%, 0.1);
+  border-radius: 24px;
+  padding: 16px 24px;
+}
