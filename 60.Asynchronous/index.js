@@ -11,7 +11,7 @@
 // - Common in tasks like: I/O operations, network requests, fetching data.
 // - Handled with: Callbacks, Promises, Async/Await.
 
-// Example 1: Using Callbacks
+// 1️⃣ Example: Using Callbacks
 // 🔍 This example demonstrates how asynchronous operations can be executed using callbacks.
 
 function func1(callback) {
