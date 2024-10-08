@@ -26,9 +26,9 @@ console.log(`${area.toFixed(2)}cm²`); // 📐 Logs the formatted area
 console.log(`${volume.toFixed(2)}cm³`); // 📦 Logs the formatted volume
 
 // 🧠 Simple Analogy 🧠
-// Think of ES6 modules like a toolbox. Each tool (function or variable) is stored in its own compartment (file),
-// making it easier to find and use when needed. Instead of carrying all tools around, you can just grab the
-// specific ones you need for a task, keeping everything organized and efficient.
+// 🧰 Think of ES6 modules like a toolbox. 🔧 Each tool (function or variable) is stored in its own compartment (file), 
+// 🌀 making it easier to find and use when needed. 🛠️ Instead of carrying all tools around, 
+// 📦 you can just grab the specific ones you need for a task, keeping everything organized and efficient.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Code Organization 📂: Structure complex applications by separating functionalities into distinct modules.
