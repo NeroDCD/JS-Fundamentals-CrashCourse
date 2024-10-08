@@ -52,9 +52,9 @@ function clearTimer() {
 }
 
 // 🧠 Simple Analogy 🧠
-// Think of `setTimeout()` as setting a kitchen timer. You set the timer for a certain amount of time,
-// and once that time has passed, the timer goes off (executes the function).
-// If you decide you don't want the timer to go off, you can cancel it with `clearTimeout()` before it finishes.
+// ⏲️ Think of `setTimeout()` as setting a kitchen timer. 
+// ⏰ You set the timer for a certain amount of time, and once that time has passed, the timer goes off (executes the function). 
+// ❌ If you decide you don't want the timer to go off, you can cancel it with `clearTimeout()` before it finishes.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Notification System 🔔: Delay notifications or reminders for users after a certain event occurs.
