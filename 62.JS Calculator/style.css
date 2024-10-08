@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --bg1: #333333;
+  --bg2: #4d4d4d;
+  --bg3: #1b1a1a;
+  --bg4: #dfdede;
+  --btn-hover: #757575;
+  --btn-active: #b8b8b8;
+  --operator: #db8a10;
+  --operator-hover: #ffaa2a;
+  --white: #ffffff;
+  --font: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg4);
+}
+#calculator {
+  font-family: var(--font);
+  background-color: var(--bg3);
+  border-radius: 15px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+#display {
+  width: 100%;
+  padding: 20px;
+  font-size: 5rem;
+  text-align: left;
+  border: none;
+  background-color: var(--bg1);
+  color: var(--white);
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--bg2);
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--btn-hover);
+}
+button:active {
+  background-color: var(--btn-active);
+}
+.operator-btn {
+  background-color: var(--operator);
+}
+.operator-btn:hover {
+  background-color: var(--operator-hover);
+}
