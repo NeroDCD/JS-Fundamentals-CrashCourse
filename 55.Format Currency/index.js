@@ -44,10 +44,10 @@ number = number.toLocaleString("en-US", { style: "currency", currency: "USD" });
 console.log(number); // 🖨️ Output: $123,456.79
 
 // 🧠 Simple Analogy 🧠
-// Think of `.toLocaleString()` as a translator for numbers. Just like how languages
-// change between countries, the way numbers are displayed changes too.
-// In some places, you use commas for thousands; in others, you use periods.
-// It’s like getting dressed for the weather, but here you format your numbers for the right locale!
+// 🌍 Think of `.toLocaleString()` as a translator for numbers. 
+// 🗣️ Just like how languages change between countries, the way numbers are displayed changes too.
+// 📊 In some places, you use commas for thousands; in others, you use periods.
+// ☔ It’s like getting dressed for the weather, but here you format your numbers for the right locale!
 
 // 🎯 Possible Use Cases:
 // 1️⃣ E-commerce 🛒: Format prices in different currencies based on user location.
