@@ -1,0 +1,99 @@
+:root {
+  --bg1: #0a0a06;
+  --bg2: #0f0f01;
+  --primary: #ecb03f;
+  --secondary: #71f6ba;
+  --start: #aedd05;
+  --danger: #e6571f;
+  --warning: #3c39ff;
+  --white: #ffffff;
+  --gray: #a0a0a0;
+}
+
+body {
+  background-color: var(--bg1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: monospace;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px; /* Reduced top and bottom padding */
+  background-color: var(--bg2);
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px; /* Reduced space between h1 and display */
+}
+
+#display {
+  font-size: 2.5em;
+  color: var(--white);
+  background-color: var(--bg2);
+  border: 2px solid var(--primary);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+#startBtn {
+  background-color: var(--start);
+  color: var(--bg1);
+}
+
+#startBtn:hover {
+  background-color: #636905;
+  color: var(--white);
+}
+
+#stopBtn {
+  background-color: var(--danger);
+  color: var(--bg1);
+}
+
+#stopBtn:hover {
+  background-color: #973e0a;
+  color: var(--white);
+}
+
+#resetBtn {
+  background-color: var(--warning);
+  color: var(--bg1);
+}
+
+#resetBtn:hover {
+  background-color: #111e91;
+  color: var(--white);
+}
