@@ -21,7 +21,7 @@ const username = "NeroDCD"; // 👤 This variable holds the username
 const welcomeMsg = document.getElementById("welcome-msg"); // 🔍 Fetches the element with ID "welcome-msg"
 
 // 🔤 Updates the welcome message. If the username is empty, it defaults to "Guest"; otherwise, it displays the username
-welcomeMsg.textContent += username === "" ? `Guest` : username;
+welcomeMsg.textContent += username === "" ? `Guest` : username; // 📝 Output: "Welcome NeroDCD"
 
 // 🧠 Simple Analogy 🧠
 // 🌍 Think of the DOM as the blueprint of a house (the webpage). Just like you can change the layout,
