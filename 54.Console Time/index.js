@@ -37,8 +37,10 @@ loadData(); // Calls the loadData function
 processData(); // Calls the processData function
 
 // 🧠 Simple Analogy 🧠
-// Think of `console.time()` as a stopwatch for your code. You press start (`console.time()`) when you begin a task,
-// and stop (`console.timeEnd()`) when you're done, seeing how long it took to complete.
+// ⏱️ Think of `console.time()` as a stopwatch for your code. 
+// ▶️ You press start (`console.time()`) when you begin a task,
+// and ⏹️ stop (`console.timeEnd()`) when you're done, 
+// 🕒 seeing how long it took to complete.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Performance Testing 🏃: Measure how long certain functions take to execute, especially in
