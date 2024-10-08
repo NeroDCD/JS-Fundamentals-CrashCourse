@@ -37,7 +37,7 @@ h1 {
   color: var(--primary);
   font-size: 3em;
   text-align: center;
-  margin-top: 50px; /* Reduced space between h1 and display */
+  margin-top: 50px;
 }
 
 #display {
