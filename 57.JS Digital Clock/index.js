@@ -23,8 +23,9 @@ updateClock(); // 🟢 Initial call to display the current time when the page lo
 setInterval(updateClock, 1000); // 🔄 Refreshes the time every 1 second (1000ms)
 
 // 🧠 Simple Analogy 🧠
-// Imagine you're adjusting a clock every second manually. This digital clock does that for you,
-// continuously checking the time from the system and updating itself on the screen automatically every second.
+// ⏰ Imagine you're adjusting a clock every second manually. 
+// 💻 This digital clock does that for you, 🔄 continuously checking the time from the system 
+// and updating itself on the screen automatically every second.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Website Headers ⏲️: Display a live digital clock in a website’s header for real-time updates.
