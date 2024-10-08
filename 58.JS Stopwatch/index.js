@@ -79,9 +79,9 @@ function update() {
 }
 
 // 🧠 Simple Analogy 🧠
-// Imagine starting a timer on your phone to time how long it takes to do a task.
-// The stopwatch checks the system time every moment and keeps showing the updated time,
-// even if you stop it and resume later, picking up where it left off.
+// ⏲️ Imagine starting a timer on your phone to time how long it takes to do a task. 
+// ⌚ The stopwatch checks the system time every moment and keeps showing the updated time, 
+// 🔄 even if you stop it and resume later, picking up where it left off.
 
 // 🎯 Possible Use Cases for JavaScript Stopwatch:
 // 1️⃣ Web Application Timer ⏱️: Implement a stopwatch feature in web applications for
