@@ -46,10 +46,9 @@ function calculate() {
 }
 
 // 🧠 Simple Analogy 🧠
-// Think of compound interest like a snowball rolling down a hill. As it rolls, it gathers
-// more snow (interest) not just from what it started with (the principal)
-// but also from the snow (interest) it has already collected.
-// The bigger the snowball gets, the more snow it picks up, making it grow faster over time!
+// ❄️ Think of compound interest like a snowball rolling down a hill. 
+// ⛄ As it rolls, it gathers more snow (interest) not just from what it started with (the principal) but also from the snow (interest) it has already collected. 
+// 📈 The bigger the snowball gets, the more snow it picks up, making it grow faster over time!
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Personal Finance 📊: Individuals can plan their savings and investments effectively by understanding how money grows over time.
