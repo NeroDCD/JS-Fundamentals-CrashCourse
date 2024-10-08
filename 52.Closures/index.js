@@ -87,10 +87,10 @@ console.log(`The final score is ${game.getScore()}pts`);
 // 🖨️ Logs: "The final score is 1pts"
 
 // 🧠 Simple Analogy 🧠
-// Think of a closure like a backpack.
-// The outer function stores items (variables) in the backpack, and the inner function
-// can take out those items whenever it needs them, even after the outer function has finished running.
-// Only the inner functions know what's inside the backpack, keeping the variables private and secure.
+// 🎒 Think of a closure like a backpack. 
+// 🏷️ The outer function stores items (variables) in the backpack, and the inner function can take out those items whenever it needs them, 
+// even after the outer function has finished running. 
+// 🔒 Only the inner functions know what's inside the backpack, keeping the variables private and secure.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Game Development 🎮: Track and update scores or levels while keeping sensitive game logic private.
