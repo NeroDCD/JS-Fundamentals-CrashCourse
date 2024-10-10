@@ -5,10 +5,10 @@
 // handles the logic to append values to the display, clear the display, and evaluate the inputted expression.
 
 // 🔍 eval():
-// The `eval()` function evaluates a string as JavaScript code. When used in a calculator, it processes the
+// ⚠️ The `eval()` function evaluates a string as JavaScript code. When used in a calculator, it processes the
 // mathematical expression entered by the user (as a string) and returns the result. However, it's important
-// to use `eval()` carefully, as it executes any code within the string, which can lead to security risks.
-// In this calculator, we handle possible errors with a `try...catch` block to display "Error" if the expression is invalid.
+// to use `eval()` carefully, as it executes any code within the string, which can lead to security risks. 
+// 🛡️ In this calculator, we handle possible errors with a `try...catch` block to display "Error" if the expression is invalid.
 
 // 1️⃣ Example 1: Basic Calculator Functions
 // 🔢 This example shows how to build a calculator with the following functionality:
@@ -16,32 +16,32 @@
 //  - Clear the display.
 //  - Calculate and display the result of the entered expression.
 
-const display = document.getElementById("display");
+const display = document.getElementById("display"); // 📥 Get the display element
 
-// Function to append input (numbers or operators) to the calculator display
+// ➕ Function to append input (numbers or operators) to the calculator display
 function appendToDisplay(input) {
-  display.value += input; // Add the clicked number or operator to the display
+  display.value += input; // ➕ Add the clicked number or operator to the display
 }
 
-// Function to clear the calculator display
+// 🗑️ Function to clear the calculator display
 function clearDisplay() {
   display.value = ""; // Reset the display to an empty value
 }
 
-// Function to evaluate the mathematical expression and display the result
+// ✅ Function to evaluate the mathematical expression and display the result
 function calculate() {
   try {
     display.value = eval(display.value); // Evaluate the expression using `eval()`
   } catch (error) {
-    display.value = "Error"; // Show "Error" if the expression is invalid
+    display.value = "Error"; // ❌ Show "Error" if the expression is invalid
   }
 }
 
 // 🧠 Simple Analogy 🧠
-// 🧮 Think of the calculator as a vending machine.
-// 🛒 You select numbers and operations like selecting items from the machine.
-// ⚙️ The `eval()` function is like the internal mechanism of the machine that calculates how much you need to pay.
-// ⚠️ If the machine (eval) encounters a problem (like a wrong selection), it displays an "Error,"
+// 🧮 Think of the calculator as a vending machine. 
+// 🛒 You select numbers and operations like selecting items from the machine. 
+// ⚙️ The `eval()` function is like the internal mechanism of the machine that calculates how much you need to pay. 
+// ⚠️ If the machine (eval) encounters a problem (like a wrong selection), it displays an "Error," 
 // and you have to fix it (input correct values).
 
 // 🎯 Possible Use Cases:
