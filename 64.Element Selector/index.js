@@ -91,9 +91,10 @@ foods.forEach((food) => {
 });
 
 // 🧠 Simple Analogy 🧠
-// 🌳 Imagine the DOM as a tree where each element is a leaf. Element selectors act as your tools
-// to pick out specific leaves. Whether you're picking one leaf by its ID or gathering a whole bunch by their class name,
-// these methods help you "grab" elements from the tree and change them however you like.
+// 🌳 Imagine the DOM as a tree where each element is a leaf. 
+// 🍃 Element selectors act as your tools to pick out specific leaves. 
+// 🌼 Whether you're picking one leaf by its ID or gathering a whole bunch by their class name, 
+// ✨ these methods help you "grab" elements from the tree and change them however you like.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Highlighting Elements 🔦: Apply styles to elements dynamically based on their IDs, classes, or tags.
