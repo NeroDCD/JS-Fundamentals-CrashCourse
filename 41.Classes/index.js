@@ -59,8 +59,9 @@ console.log(`Total price (with tax): $${total3.toFixed(2)}`); // 💲 Displays t
 //         Total price (with tax): $105.00
 
 // 🧠 Simple Analogy 🧠
-// 📦 Think of a class like a "blueprint" for a product. Just like a blueprint defines
-// how to create a building (product), a class defines how to create objects with specific properties and methods.
+// 📦 Think of a class like a "blueprint" for a product.
+// 🏢 Just like a blueprint defines how to create a building (product),
+// 🛠️ a class defines how to create objects with specific properties and methods.
 
 // 🎯 Possible Use Cases: 🎯
 // 1️⃣ Object Creation 🏗️: Easily create multiple instances of products with different properties.
