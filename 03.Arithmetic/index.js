@@ -68,7 +68,8 @@ document.getElementById("result").textContent = result;
 // ➖ Subtraction is like a saw that cuts away part of something, reducing the total. 
 // ✖️ Multiplication is like a machine that makes multiple copies of an item, increasing the total in a big way. 
 // ➗ Division is like splitting a large cake into equal slices, reducing the total into smaller parts. 
-// 🛠️ Just as you use different tools for different tasks, you use these arithmetic operations to perform various calculations in JavaScript.
+// 🛠️ Just as you use different tools for different tasks, you use these arithmetic operations 
+// to perform various calculations in JavaScript.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Calculating Values ➕➖✖️➗: Perform basic calculations such as addition, subtraction, multiplication, and division for 
