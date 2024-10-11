@@ -1,5 +1,12 @@
 // 02. JavaScript VARIABLES
 
+// 📝 JavaScript Variables store data values for future use.
+// There are three main ways to declare them:
+
+// 1️⃣ 'var' – older, can be redeclared and updated.
+// 2️⃣ 'let' – block-scoped, can be updated but not redeclared.
+// 3️⃣ 'const' – for constants, cannot be updated or redeclared.
+
 // 1. Declaration
 // 📜 Declaring a variable with let
 // let x;
