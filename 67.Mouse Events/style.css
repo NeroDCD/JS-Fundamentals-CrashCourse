@@ -1,0 +1,52 @@
+:root {
+  --bg1: #001e2b;
+  --bg2: #011720;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg2);
+}
+
+#myBox {
+  background-color: var(--bg1);
+  width: 50%;
+  height: 30vh;
+  font-size: 4vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  padding: 2vw;
+  margin: 2vw 0;
+  border-radius: 4vw;
+}
+
+#myButton {
+  font-size: 3vw;
+  padding: 2vw;
+  border-radius: 2vw;
+  border: 1px solid var(--bg1);
+  transition: all 0.3s ease;
+}
+
+#myButton:hover {
+  font-size: 3.5vw;
+  padding: 2.5vw;
+}
