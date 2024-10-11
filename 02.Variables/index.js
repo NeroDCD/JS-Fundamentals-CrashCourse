@@ -63,11 +63,11 @@ document.getElementById("p2").textContent = `You are ${age} years old`; // Updat
 document.getElementById("p3").textContent = `Enrolled: ${isStudent}`; // Updates the text content of the element with ID "p3"
 
 // 🧠 Simple Analogy 🧠
-// Think of JavaScript variables as different types of containers 📦: 
-// Number containers 🔢 are like jars that hold quantities such as age or price. You can use these jars for calculations and measurements. 
-// String containers 🔠 are like boxes that store text, such as names or messages. They help in displaying and handling textual information. 
-// Boolean containers ✅ are like switches that represent true or false states, such as whether something is on or off, available or not.
-// Just like you label your containers to know what's inside, you name your variables to keep track of the values they hold.
+// 📦 Think of JavaScript variables as different types of containers: 
+// 🔢 Number containers are like jars that hold quantities such as age or price. You can use these jars for calculations and measurements. 
+// 🔠 String containers are like boxes that store text, such as names or messages. They help in displaying and handling textual information. 
+// ✅ Boolean containers are like switches that represent true or false states, such as whether something is on or off, available or not.
+// 🏷️ Just like you label your containers to know what's inside, you name your variables to keep track of the values they hold.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Storing Values 🗃️: Use variables to store data such as numbers, strings, or booleans for use in calculations, conditions, or messages (e.g., storing user input, configuration settings).
