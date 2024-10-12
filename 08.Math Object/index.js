@@ -1,7 +1,6 @@
 // 08. Why the Math object in JavaScript is useful
 
-// 🤔 Math = a built-in object that provides
-//        a collection of properties and methods for mathematical operations.
+// 🤔 Math = a built-in object that provides a collection of properties and methods for mathematical operations.
 
 // 🧮 Example of Math constants
 // console.log("PI: " + Math.PI);  // Prints the value of PI
