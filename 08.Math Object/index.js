@@ -92,6 +92,7 @@ let min = Math.min(a, b, c);
 console.log("📉 Min value is: " + min);
 
 // 🎯 Math Object is best for:
+
 // 1️⃣ Rounding Prices for Checkout:
 // Use `Math.round()` to round product prices to the nearest cent when displaying totals during checkout. This ensures that the amount is user-friendly and accurate.
 // Example:
