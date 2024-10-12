@@ -43,20 +43,20 @@ myButton.onclick = function () {
 
 // 🔑 Explanation:
 
-// 1️⃣ `Math.random()` generates a decimal between 0 and 1. 
-//    - 🌱 This gives us a random starting point.
+// 1️⃣ Math.random() generates a decimal between 0 and 1. 
+//  - 🌱 This gives us a random starting point.
 
-// 2️⃣ `Math.random() * max` scales the random number to a range between 0 and `max`. 
-//    - 📈 This allows us to define the upper limit of our random number.
+// 2️⃣ Math.random() * max scales the random number to a range between 0 and max. 
+//  - 📈 This allows us to define the upper limit of our random number.
 
-// 3️⃣ `Math.floor()` rounds the scaled number down to the nearest whole number. 
-//    - 🔽 This ensures we get an integer value.
+// 3️⃣ Math.floor() rounds the scaled number down to the nearest whole number. 
+//  - 🔽 This ensures we get an integer value.
 
-// 4️⃣ Adding `min` ensures the range starts at the specified minimum value. 
-//    - 🎯 This shifts our random number to the desired range.
+// 4️⃣ Adding min ensures the range starts at the specified minimum value. 
+//  - 🎯 This shifts our random number to the desired range.
 
 // 5️⃣ The click event triggers random number generation and updates the text in the labels. 
-//    - 🔄 This allows users to see the new random number each time they click.
+//  - 🔄 This allows users to see the new random number each time they click.
 
 // 🧠 Simple Analogy 🧠
 // 🎩 Imagine a magic hat filled with numbered balls. 🎱
