@@ -1,0 +1,23 @@
+:root {
+  --bg1: #001e2b;
+  --bg2: #011720;
+  --gray: #a0a0a0;
+}
+
+body {
+  background-color: var(--bg1);
+  margin: 0;
+}
+
+#myBox {
+  background-color: var(--bg2);
+  width: 200px;
+  height: 200px;
+  font-size: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 24px;
+  border: 1px solid var(--gray);
+}
