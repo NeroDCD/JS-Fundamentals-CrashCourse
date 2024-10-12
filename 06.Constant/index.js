@@ -59,12 +59,11 @@ document.getElementById("mySubmit").onclick = function () {
 // let age: number;     // 🔠 Type annotation in TypeScript or similar languages
 // let isStudent: boolean; // 🔠 Type annotation
 
-
 // 🧠 Simple Analogy 🧠
-// 🏷️ Think of a constant as a label on a sealed container 🔒. Once you put something in the container and label it, you can't change its contents. 
+// 🏷️ Think of a constant as a label on a sealed container. 
+// 🔒 Once you put something in the container and label it, you can't change its contents. 
 // 🚫 In JavaScript, a `const` variable is like this sealed container. Once you assign a value to it, that value cannot be changed, 
 // 📏 ensuring that the data remains consistent throughout your code.
-
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Configuration Settings 🌐: Set unchanging values like API URLs or default user roles.
