@@ -135,13 +135,13 @@ console.log("📉 Min value is: " + min);
 // 🔧 The Math object provides these tools to make various mathematical tasks easier and more precise.
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Calculating complex mathematical formulas, such as determining the area of a circle or the hypotenuse of a triangle. 📏
-// 2️⃣ Generating random numbers for games, simulations, or dynamic content. 🎲
-// 3️⃣ Performing trigonometric calculations for animations, graphics, or simulations (e.g., sine, cosine). 🌐
-// 4️⃣ Rounding numbers for display or financial calculations (e.g., rounding to two decimal places). 💰
-// 5️⃣ Finding maximum or minimum values in a dataset for analysis or decision-making. 📊
-// 6️⃣ Calculating power and root values for scientific computations (e.g., exponential growth or decay). ⚛️
-// 7️⃣ Formatting and displaying numbers in a user-friendly way, such as with fixed decimal points or percentage. 🔢
-// 8️⃣ Generating random integers within a specific range for user selections or game mechanics. 🔄
-// 9️⃣ Converting angles between radians and degrees for various applications. 📐
-// 🔟 Creating custom mathematical functions or utilities using the built-in Math methods. 🛠️
+// 1️⃣ Calculating complex mathematical formulas 📏: Determine the area of a circle or the hypotenuse of a triangle.
+// 2️⃣ Generating random numbers 🎲: Use for games, simulations, or dynamic content.
+// 3️⃣ Performing trigonometric calculations 🌐: Useful for animations, graphics, or simulations (e.g., sine, cosine).
+// 4️⃣ Rounding numbers 💰: Adjust for display or financial calculations (e.g., rounding to two decimal places).
+// 5️⃣ Finding maximum or minimum values 📊: Analyze datasets for decision-making.
+// 6️⃣ Calculating power and root values ⚛️: Important for scientific computations (e.g., exponential growth or decay).
+// 7️⃣ Formatting and displaying numbers 🔢: Present in a user-friendly way, such as fixed decimal points or percentages.
+// 8️⃣ Generating random integers 🔄: Useful for user selections or game mechanics within a specific range.
+// 9️⃣ Converting angles 📐: Switch between radians and degrees for various applications.
+// 🔟 Creating custom mathematical functions 🛠️: Utilize built-in Math methods for utility.
