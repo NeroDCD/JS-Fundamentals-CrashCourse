@@ -61,19 +61,19 @@ document.getElementById("mySubmit").onclick = function () {
 
 
 // 🧠 Simple Analogy 🧠
-// Think of a constant as a label on a sealed container 🔒. Once you put something in the container and label it, you can't change its contents. 
-// In JavaScript, a `const` variable is like this sealed container. Once you assign a value to it, that value cannot be changed, 
-// ensuring that the data remains consistent throughout your code.
+// 🏷️ Think of a constant as a label on a sealed container 🔒. Once you put something in the container and label it, you can't change its contents. 
+// 🚫 In JavaScript, a `const` variable is like this sealed container. Once you assign a value to it, that value cannot be changed, 
+// 📏 ensuring that the data remains consistent throughout your code.
 
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Configuration Settings: Set unchanging values like API URLs or default user roles. 🌐
-// 2️⃣ Mathematical Values: Use fixed values like PI for math calculations. 🔢
-// 3️⃣ Limits and Thresholds: Define limits such as the maximum file size or minimum password length. 🚫
-// 4️⃣ Application Defaults: Set default values for things like timeout durations or currency conversion rates. ⏲️
-// 5️⃣ Feature Toggles: Enable or disable features based on constant settings. ⚙️
-// 6️⃣ Error Codes: Use constants for common error codes or messages. ❌
-// 7️⃣ CSS Class Names: Standardize class names for consistent styling across your app. 🎨
-// 8️⃣ Environment Settings: Manage values that change based on whether you’re in development, staging, or production. 🌍
-// 9️⃣ Security Settings: Define constant security settings such as encryption keys or authentication secrets. 🔐
-// 🔟 Regulatory Compliance: Use constants for compliance-related values like legal thresholds or standards. 📜
+// 1️⃣ Configuration Settings 🌐: Set unchanging values like API URLs or default user roles.
+// 2️⃣ Mathematical Values 🔢: Use fixed values like PI for math calculations.
+// 3️⃣ Limits and Thresholds 🚫: Define limits such as the maximum file size or minimum password length.
+// 4️⃣ Application Defaults ⏲️: Set default values for things like timeout durations or currency conversion rates.
+// 5️⃣ Feature Toggles ⚙️: Enable or disable features based on constant settings.
+// 6️⃣ Error Codes ❌: Use constants for common error codes or messages.
+// 7️⃣ CSS Class Names 🎨: Standardize class names for consistent styling across your app.
+// 8️⃣ Environment Settings 🌍: Manage values that change based on whether you’re in development, staging, or production.
+// 9️⃣ Security Settings 🔐: Define constant security settings such as encryption keys or authentication secrets.
+// 🔟 Regulatory Compliance 📜: Use constants for compliance-related values like legal thresholds or standards.
