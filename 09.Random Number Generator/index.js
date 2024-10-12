@@ -45,6 +45,12 @@ myButton.onclick = function () {
 // 1️⃣ `Math.random()` generates a decimal between 0 and 1. 
 //    - 🌱 This gives us a random starting point.
 
+// 2️⃣ `Math.random() * max` scales the random number to a range between 0 and `max`. 
+//    - 📈 This allows us to define the upper limit of our random number.
+
+// 3️⃣ `Math.floor()` rounds the scaled number down to the nearest whole number. 
+//    - 🔽 This ensures we get an integer value.
+
 // 🧠 Simple Analogy 🧠
 // 🎩 Imagine a magic hat filled with numbered balls. 🎱
 // 🎲 Each time you reach in, you pull out a random number. 
