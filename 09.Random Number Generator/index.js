@@ -42,6 +42,7 @@ myButton.onclick = function () {
 };
 
 // 🔑 Explanation:
+
 // 1️⃣ `Math.random()` generates a decimal between 0 and 1. 
 //    - 🌱 This gives us a random starting point.
 
