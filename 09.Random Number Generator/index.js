@@ -51,6 +51,12 @@ myButton.onclick = function () {
 // 3️⃣ `Math.floor()` rounds the scaled number down to the nearest whole number. 
 //    - 🔽 This ensures we get an integer value.
 
+// 4️⃣ Adding `min` ensures the range starts at the specified minimum value. 
+//    - 🎯 This shifts our random number to the desired range.
+
+// 5️⃣ The click event triggers random number generation and updates the text in the labels. 
+//    - 🔄 This allows users to see the new random number each time they click.
+
 // 🧠 Simple Analogy 🧠
 // 🎩 Imagine a magic hat filled with numbered balls. 🎱
 // 🎲 Each time you reach in, you pull out a random number. 
