@@ -1,0 +1,17 @@
+:root {
+  --bg1: #141422;
+  --primary: #0f2db3;
+  --white: #ffffff;
+}
+body {
+  background-color: var(--bg1);
+}
+.myButton {
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 4rem;
+  color: var(--white);
+  background-color: var(--primary);
+  border-radius: 5px;
+  border: none;
+}
