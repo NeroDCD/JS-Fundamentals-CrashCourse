@@ -1,0 +1,50 @@
+:root {
+  --bg1: #001e2b;
+  --bg2: #011720;
+  --primary: #11a78e;
+  --secondary: #71f6ba;
+}
+
+body {
+  background-color: var(--bg1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg2);
+  padding: 80px;
+  border: 3px solid var(--primary);
+  border-radius: 8px;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+button {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 30px;
+  font-size: 2em;
+  color: var(--bg1);
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--primary);
+}
