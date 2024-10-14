@@ -41,7 +41,6 @@ console.log(
 // ✨ The ternary operator allows you to write this in one line: `condition ? option1 : option2`.
 // 📜 It helps streamline decisions in your code with a concise and readable format.
 
-
 // 🎯 Possible Use Cases:
 // 1️⃣ Conditional rendering of UI elements based on user permissions or status (e.g., showing "Logout" if logged in, "Login" if not). 🔐
 // 2️⃣ Form validation by displaying error messages if a condition is not met (e.g., showing a message if required fields are empty). 🚫
