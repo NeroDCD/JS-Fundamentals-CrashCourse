@@ -1,7 +1,16 @@
 // 11. The JavaScript checked property is easy
 
-// 🗹 .checked = property that determines the checked state of an
-//                HTML checkbox or radio button element
+// 🗹 `.checked` = property that determines the checked state of an  HTML checkbox or radio button element
+
+// 📌 The `.checked` property is a boolean that indicates whether an HTML 
+//    checkbox or radio button is currently selected (checked) or not (unchecked).
+       
+// ✅ True: The checkbox or radio button is checked.
+// ❌ False: The checkbox or radio button is unchecked.
+
+// 🌍 Usage Context: Commonly used with input elements of type:
+// - checkbox: Allows multiple selections.
+// - radio: Allows only one selection from a group.
 
 // 🖥️ HTML Elements
 const myCheckbox = document.getElementById("myCheckbox"); // ✅ Get the checkbox element for subscription.
