@@ -1,6 +1,7 @@
 // 10. If statements in JavaScript are simple and powerful
 
-// 🧠 IF STATEMENTS = If a condition is true, execute a block of code; otherwise, perform a different action.
+// 🧠 IF STATEMENTS = Making decisions based on conditions. For example, "If it's raining, take an umbrella; otherwise, just go without one."
+// 🌟 This structure lets your program handle different scenarios and choose actions based on the situation, like deciding what to do when faced with multiple outcomes.
 
 // 📝 Example 1:
 // let age = 27;
