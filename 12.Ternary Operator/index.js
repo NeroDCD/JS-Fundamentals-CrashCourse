@@ -47,3 +47,8 @@ console.log(
 // 3️⃣ Simplifying logic 🎨: Apply different CSS classes based on a value for conditional styling.
 // 4️⃣ Assigning membership levels 💳: Show "Premium" if payment is successful; otherwise, show "Free."
 // 5️⃣ Displaying different content ⏰: Change messages based on the time of day or user input.
+// 6️⃣ Setting default values 🔄: Use a fallback value when the primary value is not available.
+// 7️⃣ Determining actions 🔍: Execute different functions based on user choices or conditions.
+// 8️⃣ Showing different elements 🛒: Display different product categories based on user preferences.
+// 9️⃣ Controlling feature toggles ⚙️: Enable or disable advanced options based on user roles or feature flags.
+// 🔟 Conditionally rendering components ⚛️: Render different components in frameworks like React based on state or props.
