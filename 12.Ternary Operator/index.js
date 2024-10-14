@@ -1,9 +1,8 @@
 // 12. JavaScript TERNARY OPERATOR
 
-// 🛠️ Ternary Operator = a shortcut to if{} and else{} statements
-//                       Allows you to assign a value based on a condition
-//                       condition ? codeIfTrue : codeIfFalse
-
+// 🛠️ Ternary Operator = a shortcut to if{} and else{} statements Allows you to assign 
+// a value based on a condition condition ? codeIfTrue : codeIfFalse
+                  
 // 🔄 The Ternary Operator is a more concise way to handle if-else logic
 //    It makes the code shorter, easier to read, and more elegant for simple conditions.
 
