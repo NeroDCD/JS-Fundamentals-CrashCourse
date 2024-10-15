@@ -76,7 +76,7 @@ console.log(letterGrade); // 🔄 Outputs the student's letter grade based on th
 // 4️⃣ If none of the ranges match (e.g., a score below 60), the `default` case runs and assigns an F.
 
 // 🧠 Simple Analogy 🧠
-// A `switch` statement in JavaScript is like a multi-choice decision-maker 🎛️.
+// 🎛️ The `switch` statement in JavaScript is like a multi-choice decision-maker.
 // Imagine you have a menu with different options and you need to select one based on what you choose:
 // Each case in the switch is like a different menu item you can pick, such as "Pizza 🍕", "Burger 🍔", or "Salad 🥗".
 // The `switch` helps you handle different choices by executing specific code based on the selected option.
