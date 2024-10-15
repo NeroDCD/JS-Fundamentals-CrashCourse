@@ -87,3 +87,9 @@ console.log(letterGrade); // 🔄 Outputs the student's letter grade based on th
 // 2️⃣ Applying different rules 🧑‍🤝‍🧑: Assign user roles or membership levels based on input.
 // 3️⃣ Categorizing data 💰: Group data into categories, such as pricing tiers or skill levels.
 // 4️⃣ Mapping values 🌐: Convert numeric values like HTTP status codes (e.g., 200, 404, 500) to readable text.
+// 5️⃣ Handling commands 🎮: Process different actions or commands, such as user inputs in a game.
+// 6️⃣ Managing app modes 🌙🌞: Switch between app states like light mode and dark mode.
+// 7️⃣ Displaying messages 🗨️: Show different feedback (e.g., success, error, or info messages) based on user actions.
+// 8️⃣ Routing users 🔄: Redirect users to different pages based on their choices or actions.
+// 9️⃣ Handling input types 📝: Customize behavior based on form input types, like text or password fields.
+// 🔟 Selecting themes 🎨: Apply different themes or styles according to user preferences.
