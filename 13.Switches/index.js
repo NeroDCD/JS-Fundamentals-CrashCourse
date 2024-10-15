@@ -1,9 +1,9 @@
 // 13. Learn JavaScript SWITCHES
 
 // 🔄 SWITCH Overview:
-// The switch statement can be an efficient replacement for multiple else-if statements.
-// It checks the same variable or expression against different values,
-// making your code cleaner and more readable.
+// 🔁 The switch statement can be an efficient replacement for multiple else-if statements.
+// 🎯 It checks the same variable or expression against different values,
+// ✨ making your code cleaner and more readable.
 
 // ⚠️ break: Ensures the switch stops after finding a matching case, preventing further execution.
 // 🔄 switch: The switch statement checks the value of a variable (e.g., `day`) against multiple cases.
