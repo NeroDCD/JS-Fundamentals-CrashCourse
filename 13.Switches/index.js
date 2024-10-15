@@ -4,7 +4,7 @@
 // The switch statement can be an efficient replacement for multiple else-if statements.
 // It checks the same variable or expression against different values,
 // making your code cleaner and more readable.
-//
+
 // ⚠️ break: Ensures the switch stops after finding a matching case, preventing further execution.
 // 🔄 switch: The switch statement checks the value of a variable (e.g., `day`) against multiple cases.
 // ❓ default: If none of the cases match, the default case runs as a fallback option.
