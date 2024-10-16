@@ -89,6 +89,9 @@ console.log(phoneNumber); // Output: "123-456-7890000"
 // 🔠 `toLowerCase()` and `toUpperCase()` are like changing text cases, similar to switching between uppercase and lowercase on a typewriter ⌨️.
 // 🖨️ `repeat()` is like printing text multiple times, similar to copying a word several times on a sheet of paper 🖨️.
 // 🔤 `startsWith()` and `endsWith()` are like checking if a text starts or ends with certain characters, just like checking the first and last letters of a name 🔤.
+// 🔍 `includes()` is like searching for a word within a sentence, similar to finding a term in a paragraph 🔍.
+// ✏️ `replaceAll()` is like replacing all instances of a word, similar to editing every occurrence of a term in a document ✏️.
+// 📄 `padStart()` and `padEnd()` are like adding extra characters to the start or end of a text, similar to filling in blanks in a form 📄.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Validating user input 🛡️: Checking for forbidden characters or patterns (e.g., using `includes()` to detect unwanted input).
