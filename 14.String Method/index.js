@@ -83,6 +83,12 @@ console.log(phoneNumber); // Output: "123-456-7890000"
 // 📚 String methods in JavaScript are like different tools for handling text:
 // 📝 `charAt()` is like picking a specific letter from a word, similar to pointing at a letter in a book 📖.
 // 🔍 `indexOf()` is like searching for the first appearance of a letter, just like finding a word in a dictionary 📚.
+// 📝 `lastIndexOf()` is like finding the last occurrence of a letter, like locating the last mention of a name in a list 📝.
+// 📏 `.length` is like counting the total number of characters, similar to measuring the length of a sentence with a ruler 📏.
+// 🧽 `trim()` is like cleaning up a text by removing extra spaces, similar to erasing smudges from a document 🧽.
+// 🔠 `toLowerCase()` and `toUpperCase()` are like changing text cases, similar to switching between uppercase and lowercase on a typewriter ⌨️.
+// 🖨️ `repeat()` is like printing text multiple times, similar to copying a word several times on a sheet of paper 🖨️.
+// 🔤 `startsWith()` and `endsWith()` are like checking if a text starts or ends with certain characters, just like checking the first and last letters of a name 🔤.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Validating user input 🛡️: Checking for forbidden characters or patterns (e.g., using `includes()` to detect unwanted input).
