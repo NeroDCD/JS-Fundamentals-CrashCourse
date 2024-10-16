@@ -1,6 +1,7 @@
 // 14. Useful JavaScript STRING METHODS
 
 // 💻 String methods allow you to manipulate and work with text (strings)
+// 🎨 These methods provide powerful ways to modify, search, format, and analyze strings.
 
 // Example string
 //let username = "NeroDCD";
