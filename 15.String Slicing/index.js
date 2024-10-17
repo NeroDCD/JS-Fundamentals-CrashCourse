@@ -61,14 +61,15 @@ console.log(username); // Output: "github"
 console.log(extension); // Output: "gmail.com"
 
 // 🧠 Simple Analogy 🧠
-// String slicing in JavaScript is like using a pair of scissors ✂️ to cut a portion from a larger piece of paper 📄:
+// 📄 String slicing in JavaScript is like using a pair of scissors ✂️ to cut a portion from a larger piece of paper:
 // ✂️ `slice()` is like carefully cutting out a specific section, deciding the start and end points.
 // ✂️ `slice(0, 4)` is like cutting from the start to a mark at the fourth inch, getting the first part of the text.
 // ✂️ `slice(5)` is like cutting from a mark at the fifth inch to the end, leaving you with the rest of the text.
 // ✂️ `slice(-1)` is like cutting the last inch of the paper, getting only the last piece.
 // ✂️ `slice(0, indexOf(" "))` is like cutting from the start to the first space, extracting the first word.
 // ✂️ `slice(indexOf(" ") + 1)` is like cutting from just after the first space to the end, extracting the second word.
-// The `slice()` method helps you select and cut exactly the part of the string you need, similar to picking and cutting sections from a document.
+// ✂️ The `slice()` method helps you select and cut exactly the part of the string you need, 
+// similar to picking and cutting sections from a document.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Extracting names 👤: Splitting full names into first and last names by cutting at spaces.
