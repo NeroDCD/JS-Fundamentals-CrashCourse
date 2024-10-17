@@ -1,10 +1,10 @@
 // 15. Learn JavaScript STRING SLICING
 
 // ✂️ String slicing = Creating a substring from a portion of another string.
-// It extracts parts of a string using the slice method.
-// Syntax: string.slice(start, end)
-// - start: The index where slicing begins (inclusive).
-// - end: The index where slicing ends (exclusive).
+// 🧩 It extracts parts of a string using the `slice()` method.
+// 📌 Syntax: string.slice(start, end)
+// - 🟢 start: The index where slicing begins (inclusive).
+// - 🔴 end: The index where slicing ends (exclusive).
 
 // Example 1
 
