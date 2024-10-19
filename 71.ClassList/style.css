@@ -1,0 +1,40 @@
+:root {
+  --bg1: #001e2b; /* Dark background color */
+  --bg2: #011720; /* Dark background color */
+  --primary: #00ce58; /* Primary color */
+  --secondary: #71f6ba; /* Secondary color */
+  --white: #ffffff;
+  --gray: #a0a0a0;
+}
+/* Example 1 to 4
+#myButton {
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+#myH1 {
+  font-size: 5rem;
+} */
+
+.myButtons {
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.enabled {
+  background-color: var(--bg2);
+  color: var(--white);
+}
+.hover {
+  box-shadow: 0 0 10px rgba(19, 19, 19, 0.226);
+  font-weight: bold;
+}
+.disabled {
+  background-color: var(--gray);
+  color: #464646;
+}
