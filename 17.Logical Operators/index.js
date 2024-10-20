@@ -55,7 +55,6 @@ if (!SUNNY) {
 // Using these operators helps you make complex decisions easily, just like how combining different conditions helps you decide when to go outside based on multiple factors.
 // If a condition is true, `!` makes it false, and if it’s false, `!` makes it true.
 
-
 // 🎯 Possible Use Cases:
 // 1️⃣ Validating form inputs by ensuring multiple conditions are met (e.g., checking if both username and password fields are filled). 📝
 // 2️⃣ Checking multiple conditions in if-else statements (e.g., verifying if age is within a valid range or if a user meets all criteria). ⚖️
