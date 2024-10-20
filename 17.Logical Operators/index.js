@@ -46,7 +46,6 @@ if (!SUNNY) {
 // 🔑 Explanation:
 // The NOT operator (!) inverts the value of SUNNY. If SUNNY is true, !SUNNY becomes false, and vice versa.
 
-
 // 🧠 Simple Analogy 🧠
 // Logical operators in JavaScript are like decision-making tools used in everyday situations:
 // Imagine you’re deciding whether to go outside based on the weather and time of day:
