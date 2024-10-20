@@ -55,13 +55,13 @@ if (!SUNNY) {
 // ⚖️ If a condition is true, `!` makes it false, and if it’s false, `!` makes it true.
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Validating form inputs by ensuring multiple conditions are met (e.g., checking if both username and password fields are filled). 📝
-// 2️⃣ Checking multiple conditions in if-else statements (e.g., verifying if age is within a valid range or if a user meets all criteria). ⚖️
-// 3️⃣ Setting up fallback options by using logical operators to handle undefined or null values (e.g., providing default values). 🔄
-// 4️⃣ Inverting Boolean values to control toggling between states (e.g., switching between light 🌙 and dark ☀️ mode). 🔄
-// 5️⃣ Controlling access based on multiple permissions (e.g., ensuring a user has all required privileges before granting access). 🔐
-// 6️⃣ Combining conditions for complex decision-making (e.g., checking if a user is logged in and has admin rights). 🛠️
-// 7️⃣ Managing feature flags or enabling/disabling features based on multiple criteria (e.g., feature availability in different environments). 🏷️
-// 8️⃣ Handling complex conditional logic in loops or functions (e.g., processing multiple inputs or configuration options). 🔍
-// 9️⃣ Implementing search filters or query conditions (e.g., finding items that match certain criteria or belong to multiple categories). 🔎
-// 🔟 Optimizing performance by short-circuiting conditions in logical expressions (e.g., preventing unnecessary calculations). 🚀
+// 1️⃣ Validating form inputs 📝: Ensure multiple conditions are met (e.g., checking if both username and password fields are filled).
+// 2️⃣ Checking conditions in if-else statements ⚖️: Verify if age is within a valid range or if a user meets all criteria.
+// 3️⃣ Setting up fallback options 🔄: Handle undefined or null values by providing default values.
+// 4️⃣ Inverting Boolean values 🔄: Control toggling between states (e.g., switching between light 🌙 and dark ☀️ mode).
+// 5️⃣ Controlling access based on permissions 🔐: Ensure users have all required privileges before granting access.
+// 6️⃣ Combining conditions for decision-making 🛠️: Check if a user is logged in and has admin rights.
+// 7️⃣ Managing feature flags 🏷️: Enable or disable features based on multiple criteria (e.g., feature availability in different environments).
+// 8️⃣ Handling complex conditional logic 🔍: Process multiple inputs or configuration options in loops or functions.
+// 9️⃣ Implementing search filters 🔎: Find items matching certain criteria or belonging to multiple categories.
+// 🔟 Optimizing performance 🚀: Short-circuit conditions to prevent unnecessary calculations.
