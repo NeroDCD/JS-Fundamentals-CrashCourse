@@ -1,0 +1,74 @@
+:root {
+  --bg1: #001e2b; /* Dark background color */
+  --bg2: #011720; /* Dark background color */
+  --primary: #00ce58; /* Primary color */
+  --secondary: #71f6ba; /* Secondary color */
+  --white: #ffffff;
+  --gray: #a0a0a0;
+}
+
+body {
+  background-color: var(--bg1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 100px 50px;
+  background-color: var(--bg2);
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+}
+
+label {
+  font-size: 2em;
+  font-family: monospace;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: var(--gray);
+  background-color: var(--bg1);
+  border: 2px solid var(--secondary);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#mySubmit {
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 1.5em;
+  color: var(--bg1);
+  background-color: var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  box-sizing: border-box;
+}
+
+#mySubmit:hover {
+  background-color: var(--secondary);
+}
+
+#resultElement {
+  font-size: 1.5em;
+  color: var(--white);
+  margin-top: 20px;
+  text-align: center;
+}
