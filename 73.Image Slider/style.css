@@ -1,35 +1,60 @@
 :root {
-  --bg1: #001e2b;
+  --bg1: #222222;
   --bg2: hsla(0, 0%, 0%, 0.5);
-  --primary: #00ce58;
-  --secondary: #71f6ba;
   --white: #ffffff;
-  --gray: #a0a0a0;
 }
 
-/* body {
+body {
   background-color: var(--bg1);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-} */
+}
+
+.card {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 15px;
+  border: var(--white) 1px solid;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
 .slider {
   position: relative;
   width: 100%;
-  margin: auto;
+  height: 50vh;
   overflow: hidden;
 }
+
+.slide {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
 .slider img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: none;
+  transition: transform 0.3s ease;
 }
+
 img.displaySlide {
   display: block;
   animation-name: fade;
   animation-duration: 1.5s;
+  transition: transform 0.3s ease-in-out;
 }
+
+img:hover {
+  transform: scale(1.1);
+}
+
 .slider button {
   position: absolute;
   top: 50%;
@@ -41,17 +66,44 @@ img.displaySlide {
   border: none;
   cursor: pointer;
 }
+
 .prev {
-  left: 0;
+  left: 10px;
 }
+
 .next {
-  right: 0;
+  right: 10px;
 }
+
 @keyframes fade {
   from {
     opacity: 0.5;
   }
   to {
     opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
+
+  .slider {
+    height: 55vh;
+  }
+
+  .slider button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: 40vh;
+  }
+
+  .slider button {
+    font-size: 1.2rem;
   }
 }

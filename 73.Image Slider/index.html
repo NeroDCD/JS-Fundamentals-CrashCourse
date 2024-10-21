@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>73.IMAGE SLIDER</title>
+    <title>73. IMAGE SLIDER</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="slider">
-      <div class="slide">
-        <img src="1.jpg" alt="Battle Academia Caitlyn" class="slide" />
-        <img src="2.jpg" alt="Battle Academia Ezreal" class="slide" />
-        <img src="3.jpg" alt="Battle Academia Jayce" class="slide" />
+    <div class="card">
+      <div class="slider">
+        <div class="slide">
+          <img src="1.jpg" alt="Battle Academia Caitlyn" class="displaySlide" />
+          <img src="2.jpg" alt="Battle Academia Katarina" class="slide" />
+          <img src="3.jpg" alt="Battle Academia Leona" class="slide" />
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
       </div>
-      <button class="prev" onclick="prevSlide()">&#10094</button>
-      <button class="next" onclick="nextSlide()">&#10095</button>
     </div>
     <script src="index.js"></script>
   </body>
