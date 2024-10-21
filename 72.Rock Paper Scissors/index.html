@@ -7,7 +7,17 @@
     <!-- <link rel="stylesheet" href="style.css" /> -->
   </head>
   <body>
-    <div class="container"></div>
+    <h1>Rock - Paper - Scissors</h1>
+    <div id="choices">
+      <button onclick="playGame(`rock`)">👊</button>
+      <button onclick="playGame(`paper`)">✋</button>
+      <button onclick="playGame(`Scissors`)">✌</button>
+    </div>
+
+    <div id="playerDisplay">Player:</div>
+    <div id="computerDisplay">Computer:</div>
+    <div id="resultDisplay">It's a tie:</div>
+
     <script src="index.js"></script>
   </body>
 </html>
