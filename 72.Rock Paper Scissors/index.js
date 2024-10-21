@@ -31,10 +31,23 @@ function playGame(playerChoice) {
         break;
     }
   }
-  playerDisplay.textContent = `😎 Player: ${playerChoice}`;
-  computerDisplay.textContent = `💻 Computer: ${computerChoice}`;
+  playerDisplay.textContent = `Player: ${playerChoice}`;
+  computerDisplay.textContent = `Computer: ${computerChoice}`;
   resultDisplay.textContent = result;
-  //   console.log(computerChoice);
+
+  resultDisplay.classList.remove("greenText", "redText", "limeText");
+
+  switch (result) {
+    case "You Win!🏆":
+      resultDisplay.classList.add("greenText");
+      break;
+    case "You Lose😭":
+      resultDisplay.classList.add("redText");
+      break;
+    case "It's a tie!🏆":
+      resultDisplay.classList.add("limeText");
+      break;
+  }
 }
 
 // 🧠 Simple Analogy 🧠
