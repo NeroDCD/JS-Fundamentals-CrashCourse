@@ -27,8 +27,8 @@ h1 {
 
 .choices {
   margin-bottom: 30px;
-  display: flex; /* Enable flexbox for centering */
-  justify-content: center; /* Center the buttons horizontally */
+  display: flex; 
+  justify-content: center;
 }
 
 .choices button {
