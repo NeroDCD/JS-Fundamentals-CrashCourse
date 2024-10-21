@@ -1,6 +1,9 @@
 // 72. Build JavaScript ROCK PAPER SCISSORS
 
-// This is a beginner's project to help learn the fundamentals of working with the DOM and classList
+// 🗿✂️📄 Rock Paper Scissors Project:
+// This beginner project helps you learn the basics of DOM manipulation and using classList.
+// 🎯 a simple game where players choose between rock, paper, or scissors,
+//     and dynamically update the UI to show the result.
 
 // 1️⃣ Example 1 (Title Here)
 // Explain this, add emoji also
