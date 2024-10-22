@@ -38,9 +38,10 @@ if (PI !== "3.14") {
 }
 
 // 🧠 Simple Analogy 🧠
-// Think of `===` and `!==` like comparing two items with strict attention to detail:
-// `===` (Strict Equality): Imagine you’re comparing two identical apples 🍎🍎. They must be the same type, size, and color to be considered exactly equal. Everything about them has to match perfectly.
-// `!==` (Strict Inequality): If you find an apple 🍎 and an orange 🍊, you immediately say they are not the same. Even a small difference makes them not equal.
+// ✅ Think of `===` and `!==` like comparing two items with strict attention to detail:
+// 🍎 `===` (Strict Equality): Imagine you’re comparing two identical apples 🍎🍎. 
+// ✅ They must be the same type, size, and color to be considered exactly equal. Everything about them has to match perfectly.
+// 🍊 `!==` (Strict Inequality): If you find an apple 🍎 and an orange 🍊, you immediately say they are not the same. Even a small difference makes them not equal.
 
 // 🎯 Possible Use Cases:
 // 1️⃣ Form validation 📝: Ensure both value and type match (e.g., checking if an input is a numeric value, not a string).
