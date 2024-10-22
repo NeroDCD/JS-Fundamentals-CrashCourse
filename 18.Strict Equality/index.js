@@ -1,10 +1,10 @@
 // 18. Learn JavaScript STRICT EQUALITY
 
-//   = assignment operator (used to assign a value to a variable) ✍️
-//  == comparison operator (checks if values are equal but ignores type) ⚖️
-// === strict equality operator (checks if values and datatype are both equal) 🛡️
-//  != inequality operator (checks if values are not equal but ignores type) ❌
-// !== strict inequality operator (checks if values and datatype are not equal) 🛡️❌
+// ✍️  = assignment operator (used to assign a value to a variable)
+// ⚖️  == comparison operator (checks if values are equal but ignores type)
+// 🛡️  === strict equality operator (checks if values and datatype are both equal)
+// ❌  != inequality operator (checks if values are not equal but ignores type)
+// 🛡️❌ !== strict inequality operator (checks if values and datatype are not equal)
 
 const PI = 3.14; // declaring a constant variable PI and assigning the value 3.14 🎯
 
