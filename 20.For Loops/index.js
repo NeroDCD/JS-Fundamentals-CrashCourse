@@ -1,6 +1,12 @@
 // 20. Learn JavaScript FOR LOOPS
 
-// for loop = repeat some code a LIMITED amount of times 🔄⏲️
+// 🔄⏲️ for loop = repeat some code a LIMITED amount of times 
+// 🧠 It’s commonly used when the number of iterations is known beforehand.
+// 📌 Syntax: `for (initialization; condition; increment) { // code block to be executed }`.
+// ⚙️ The loop starts by initializing a variable, checks a condition before each iteration, and updates the variable after each iteration.
+// 🚦 The loop will continue running as long as the condition remains true.
+// ❌ When the condition becomes false, the loop stops executing.
+// 📊 It's useful for tasks like iterating over arrays, running a set number of operations, or counting.
 
 // Example (Increment)
 // ⬆️ This loop counts from 1 to 10, increasing the value of `i` by 1 each time.
