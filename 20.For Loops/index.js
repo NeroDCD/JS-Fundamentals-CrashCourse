@@ -39,13 +39,13 @@ for (let i = 1; i <= 20; i++) { // Starts at 1, ends at 20
 // 📊 Each card is checked in order, and the task is repeated exactly 10 times, just like the `for` loop repeats a block of code a specific number of times.
 
 // 🎯 Possible Use Cases:
-// 1️⃣ Iterating over arrays or lists to perform actions on each item (e.g., processing user data or displaying products). 🔄
-// 2️⃣ Counting up or down with defined increments or decrements (e.g., creating countdowns or looping through calendar days). ⏳
-// 3️⃣ Repeating a set of actions a fixed number of times (e.g., generating a series of elements or creating pagination). 🔢
-// 4️⃣ Skipping certain iterations with `continue` when specific conditions are met (e.g., skipping invalid entries). 🚫
-// 5️⃣ Exiting the loop early with `break` when a condition is satisfied (e.g., stopping a search when a match is found). 🛑
-// 6️⃣ Traversing and modifying elements of multidimensional arrays or nested data structures. 📊
-// 7️⃣ Automating repetitive tasks such as rendering UI components, processing datasets, or generating reports. ⚙️
-// 8️⃣ Using loops to simulate processes (e.g., physics simulations, financial models, or game logic). 🎮🔬
-// 9️⃣ Implementing animations or loading sequences by running a loop a specific number of times. 🎬💻
-// 🔟 Benchmarking or running stress tests by executing a loop with a large number of iterations. 🚀
+// 1️⃣ Iterating over arrays or lists 🔄: Perform actions on each item, like processing user data or displaying products.
+// 2️⃣ Counting up or down ⏳: Loop through calendar days or create countdowns with defined increments or decrements.
+// 3️⃣ Repeating actions 🔢: Execute a set of actions a fixed number of times, such as generating elements or pagination.
+// 4️⃣ Skipping iterations 🚫: Use `continue` to skip certain iterations when specific conditions are met (e.g., invalid entries).
+// 5️⃣ Exiting early 🛑: Break out of the loop with `break` when a condition is satisfied (e.g., finding a search match).
+// 6️⃣ Traversing nested structures 📊: Modify or access elements of multidimensional arrays or nested data.
+// 7️⃣ Automating tasks ⚙️: Use loops to render UI components, process datasets, or generate reports.
+// 8️⃣ Simulating processes 🎮🔬: Run simulations in fields like physics, financial models, or game logic.
+// 9️⃣ Implementing animations 🎬💻: Use loops to control the number of times animations or loading sequences run.
+// 🔟 Running benchmarks 🚀: Execute a loop with a large number of iterations for stress testing or performance analysis.
