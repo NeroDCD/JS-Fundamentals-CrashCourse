@@ -8,8 +8,8 @@
 // 📜 Note: Async functions do not have `resolve` or `reject` parameters like traditional Promises.
 // 📜 Everything after the `await` keyword is placed in an event queue, ensuring it executes after the Promise is settled.
 
-// 1️⃣ Example 1: Completing Chores with Async/Await
-// This example demonstrates how to handle multiple asynchronous tasks in a sequence.
+// 1️⃣ Example 1: (Completing Chores with Async/Await)
+// 🌟 Handle multiple asynchronous tasks in a sequence.
 // Each task (walking the dog, cleaning the kitchen, and taking out the trash) is wrapped in a Promise.
 // The async/await syntax allows the program to wait for each task to complete before moving to the next one,
 // ensuring that the chores are done in order and providing a clear and readable structure to the code.
