@@ -16,33 +16,38 @@
 // 3️⃣ TAKE OUT THE TRASH
 
 // // 1️⃣ Example 1 (❌ Using Nested Callbacks)
-// // 🐾 This example demonstrates how nested callbacks can lead to complex and hard-to-read code.
+// 🐾 This example demonstrates how nested callbacks can lead to complex and hard-to-read code.
 
 // function walkDog(callback) {
+//   // 🔄 Simulates walking the dog with a delay
 //   setTimeout(() => {
-//     console.log("You walk the dog 🐕");
-//     callback();
-//   }, 1500);
+//     console.log("You walk the dog 🐕"); // 📢 Log that the dog is walked
+//     callback(); // 🔗 Call the next function in the chain
+//   }, 1500); // ⏱️ Wait 1.5 seconds before executing
 // }
 
 // function cleanKitchen(callback) {
+//   // 🔄 Simulates cleaning the kitchen with a delay
 //   setTimeout(() => {
-//     console.log("You clean the kitchen 🧹🧼🧽");
-//     callback();
-//   }, 2500);
+//     console.log("You clean the kitchen 🧹🧼🧽"); // 📢 Log that the kitchen is cleaned
+//     callback(); // 🔗 Call the next function in the chain
+//   }, 2500); // ⏱️ Wait 2.5 seconds before executing
 // }
 
 // function takeOutTrash(callback) {
+//   // 🔄 Simulates taking out the trash with a delay
 //   setTimeout(() => {
-//     console.log("You take out the trash 🗑️");
-//     callback();
-//   }, 2500);
+//     console.log("You take out the trash 🗑️"); // 📢 Log that the trash is taken out
+//     callback(); // 🔗 Call the next function in the chain
+//   }, 2500); // ⏱️ Wait 2.5 seconds before executing
 // }
 
 // // Chaining the chores using nested callbacks
 // walkDog(() => {
+//   // 🔗 Start with walking the dog, then clean the kitchen
 //   cleanKitchen(() => {
-//     takeOutTrash(() => console.log("You finished all the chores!🏁"));
+//     // 🔗 After cleaning the kitchen, take out the trash
+//     takeOutTrash(() => console.log("You finished all the chores!🏁")); // 📢 Log completion
 //   });
 // });
 
@@ -50,59 +55,62 @@
 // 🔄 This example shows how Promises simplify the handling of asynchronous operations without deep nesting.
 
 function walkDog() {
+  // 🔄 Return a Promise for walking the dog
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const dogWalked = true;
+      const dogWalked = true; // ✅ Simulate the dog being walked
       if (dogWalked) {
-        resolve("You walk the dog 🐕");
+        resolve("You walk the dog 🐕"); // 🏆 Resolve the Promise with a success message
       } else {
-        reject("You didn't walk the dog❌");
+        reject("You didn't walk the dog❌"); // ❌ Reject the Promise with an error message
       }
-    }, 1500);
+    }, 1500); // ⏱️ Wait 1.5 seconds before executing
   });
 }
 
 function cleanKitchen() {
+  // 🔄 Return a Promise for cleaning the kitchen
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const kitchenCleaned = true;
+      const kitchenCleaned = true; // ✅ Simulate the kitchen being cleaned
       if (kitchenCleaned) {
-        resolve("You clean the kitchen 🧹🧼🧽");
+        resolve("You clean the kitchen 🧹🧼🧽"); // 🏆 Resolve the Promise with a success message
       } else {
-        reject("You didn't clean the kitchen❌");
+        reject("You didn't clean the kitchen❌"); // ❌ Reject the Promise with an error message
       }
-    }, 2500);
+    }, 2500); // ⏱️ Wait 2.5 seconds before executing
   });
 }
 
 function takeOutTrash() {
+  // 🔄 Return a Promise for taking out the trash
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const trashTakenOut = false; // This will trigger an error
+      const trashTakenOut = false; // 🚫 Simulate an error (trash not taken out)
       if (trashTakenOut) {
-        resolve("You take out the trash 🗑️");
+        resolve("You take out the trash 🗑️"); // 🏆 Resolve the Promise with a success message
       } else {
-        reject("You didn't take out the trash❌");
+        reject("You didn't take out the trash❌"); // ❌ Reject the Promise with an error message
       }
-    }, 500);
+    }, 500); // ⏱️ Wait 0.5 seconds before executing
   });
 }
 
 // Chaining the chores using Promises
 walkDog()
   .then((value) => {
-    console.log(value);
-    return cleanKitchen();
+    console.log(value); // 📢 Log the result of walking the dog
+    return cleanKitchen(); // 🔗 Proceed to clean the kitchen
   })
   .then((value) => {
-    console.log(value);
-    return takeOutTrash();
+    console.log(value); // 📢 Log the result of cleaning the kitchen
+    return takeOutTrash(); // 🔗 Proceed to take out the trash
   })
   .then((value) => {
-    console.log(value);
-    console.log("You finished all the chores!🏁");
+    console.log(value); // 📢 Log the result of taking out the trash
+    console.log("You finished all the chores!🏁"); // 📢 Log completion
   })
-  .catch((error) => console.error(error)); // Error handling
+  .catch((error) => console.error(error)); // ⚠️ Handle any errors that occur
 
 // 🧠 Simple Analogy 🧠
 // 🏡 Think of a Promise like ordering a pizza 🍕.
