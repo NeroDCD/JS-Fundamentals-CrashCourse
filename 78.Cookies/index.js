@@ -59,18 +59,18 @@ function getCookie(name) {
   return result;
 }
 
-// Deleting cookies
+// // Deleting cookies
 // deleteCookie("firstName");
 // deleteCookie("lastName");
 // deleteCookie("email");
 
-// Setting cookies
-setCookie("firstName", "Nero", 365);
-setCookie("lastName", "Near", 365);
+// // Setting cookies
+// setCookie("firstName", "Nero", 365);
+// setCookie("lastName", "Near", 365);
 
-// Retrieving cookies
-console.log(getCookie("firstName"));
-console.log(getCookie("lastName"));
+// // Retrieving cookies
+// console.log(getCookie("firstName"));
+// console.log(getCookie("lastName"));
 
 // 🧠 Simple Analogy 🧠
 //Explain this, add emoji also
