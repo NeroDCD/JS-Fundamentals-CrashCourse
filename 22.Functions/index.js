@@ -1,8 +1,8 @@
 // 22. JavaScript FUNCTIONS are easy! 🎯
 
-// 🔄 function = A section of reusable code.
-//               Declare the code once, use it whenever you want.
-//               Call the function to execute that code.
+// 🔄 Function = A section of reusable code.
+// ✍️ It allows you to declare the code once and use it whenever needed.
+// 📞 Call the function to execute the code and perform specific tasks.
 
 // Example 1: Simple Function
 // 🎂 This function prints a "Happy Birthday" message.
