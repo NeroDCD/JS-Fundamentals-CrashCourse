@@ -1,4 +1,4 @@
-## Status: `Ongoing (74/80)` 🔄
+## Status: `Ongoing (75/80)` 🔄
 
 # Project Overview 📝
 
