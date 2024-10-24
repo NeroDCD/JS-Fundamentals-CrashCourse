@@ -22,7 +22,7 @@
 const firstText = document.querySelector("#firstText");
 const lastText = document.querySelector("#lastText");
 const submitBtn = document.querySelector("#submitBtn");
-const cookiesBtn = document.querySelector("#cookiesBtn");
+const cookieBtn = document.querySelector("#cookieBtn");
 
 function setCookie(name, value, daysToLive) {
   const date = new Date();
