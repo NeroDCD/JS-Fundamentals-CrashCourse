@@ -8,6 +8,13 @@
 // ⚠️ The `reject()` function is called when the operation fails, passing an error message.
 // 🚀 Promises make it easier to handle asynchronous operations without falling into nested callbacks.
 
+// 🐕 DO THESE CHORES IN ORDER
+
+// 1️⃣ WALK THE DOG
+// 2️⃣ CLEAN THE KITCHEN
+// 3️⃣ TAKE OUT THE TRASH
+
+
 // 1️⃣ Example 1 (Title Here)
 // Explain this, add emoji also
 
