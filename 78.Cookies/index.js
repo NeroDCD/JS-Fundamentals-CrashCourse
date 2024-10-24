@@ -19,6 +19,11 @@
 // // 1️⃣ Example 2 (Title Here)
 // // Explain this, add emoji also
 
+const firstText = document.querySelector("#firstText");
+const lastText = document.querySelector("#lastText");
+const submitBtn = document.querySelector("#submitBtn");
+const cookiesBtn = document.querySelector("#cookiesBtn");
+
 function setCookie(name, value, daysToLive) {
   const date = new Date();
   date.setTime(date.getTime() + daysToLive * 24 * 60 * 60 * 1000);
