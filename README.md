@@ -1,5 +1,3 @@
-## Status: `Ongoing (79/80)` 🔄
-
 # Project Overview 📝
 
 <p align="center">
@@ -8,20 +6,34 @@
   </a>
 </p>
 
-**Link to the tutorial:** [JavaScript tutorial for beginners 🌐](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv)
+**Tutorial Link:** [JavaScript Tutorial for Beginners 🌐](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv)
 
 ---
 
-This repo is where I’m keeping track of everything I’m learning about JavaScript as I follow the "JavaScript tutorial for beginners 🌐" by Bro Code. The goal is to learn the basics of JavaScript and get comfortable with how it works.
+## Status: `Completed ✅ (80/80)`
 
-I’m working through the tutorial daily, learning about stuff like variables, data types, loops, functions, and event handling. As I go, I’m not just following the videos but also tweaking the examples and playing around with the code to get a better feel for how things work. 🔧✨
+This repository tracks my learning experience with JavaScript while following the "JavaScript tutorial for beginners 🌐" by Bro Code. The goal was to get a solid understanding of the basics and how JavaScript works.
 
-I’m focusing on understanding the core concepts and applying them directly through coding. As I go through the tutorial, I’m experimenting with the examples to see how things work in practice. The main goal is to get a strong grasp of the basics and use that as a stepping stone for more advanced topics like JavaScript frameworks and libraries.
+I went through the tutorial daily and covered topics like:
+- **Variables** 📦
+- **Data Types** 🏷️
+- **Loops** 🔄
+- **Functions** 🛠️
+- **Event Handling** 📅
+- **Etc.** 🔍
 
-I’ll keep updating this as I go and share what I’m learning along the way! 🎨🔍
+Instead of just watching the videos, I also tweaked the examples and played around with the code to really get a feel for it. 🔧✨
 
-## ⚙️ Tech Stack
+For each `index.js` or JavaScript file I created, I added some documentation and simple explanations to help clarify what the code does.
+
+Feel free to check out what I've learned! 🎨🔍
+
+## ⚙️ Tech Stack 🚀
 
 - **HTML** 🌐
 - **CSS** 🎨
 - **JavaScript** 📜
+- **Git** 🗂️
+- **VS Code** 💻
+
+---
