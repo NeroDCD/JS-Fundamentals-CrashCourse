@@ -1,74 +1,90 @@
 :root {
-  --bg1: #001e2b; /* Dark background color */
-  --bg2: #011720; /* Dark background color */
-  --primary: #00ce58; /* Primary color */
-  --secondary: #71f6ba; /* Secondary color */
+  --bg1: hsl(0 0%, 95%);
+  --button: hsl(122, 39%, 50%);
+  --buttonHover: hsl(122, 39%, 40%);
+  --border: hsla(0, 0%, 20%, 0.3);
+  --shadow: hsla(0, 0%, 0%, 0.5);
+  --card: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
   --white: #ffffff;
-  --gray: #a0a0a0;
+  --text: hsla(0, 0%, 0%, 0.75);
+
+  --font: Arial, sans-serif;
 }
 
 body {
+  font-family: var(--font);
   background-color: var(--bg1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
-}
-
-.container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 400px;
-  padding: 100px 50px;
-  background-color: var(--bg2);
-  border: 2px solid var(--primary);
-  border-radius: 5px;
 }
-
-label {
-  font-size: 2em;
-  font-family: monospace;
-  color: var(--white);
-  text-align: center;
-  margin-bottom: 20px;
+.weatherForm {
+  margin: 20px;
 }
-
-input[type="text"] {
-  width: 100%;
+.cityInput {
   padding: 10px;
-  margin-bottom: 20px;
-  font-size: 1.5em;
-  color: var(--gray);
-  background-color: var(--bg1);
-  border: 2px solid var(--secondary);
-  border-radius: 5px;
-  box-sizing: border-box;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
 }
-
-#mySubmit {
+button[type="submit"] {
   padding: 10px 20px;
-  margin: 10px 0;
-  width: 100%;
-  font-size: 1.5em;
-  color: var(--bg1);
-  background-color: var(--primary);
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: var(--button);
+  color: var(--white);
+  border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.25s;
-  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
-
-#mySubmit:hover {
-  background-color: var(--secondary);
+button[type="submit"]:hover {
+  background-color: var(--buttonHover);
 }
-
-#resultElement {
-  font-size: 1.5em;
-  color: var(--white);
-  margin-top: 20px;
-  text-align: center;
+.card {
+  background: var(--card);
+  padding: 50px;
+  box-shadow: 2px 2px 5px var(--shadow);
+  border-radius: 10px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+p {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+.cityDisplay,
+.tempDisplay {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 25px;
+}
+.humidityDisplay {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.descDisplay {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.weatherEmoji {
+  margin: 0;
+  font-size: 7.5rem;
+}
+.errorDisplay {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text);
 }
