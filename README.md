@@ -30,10 +30,11 @@ Feel free to check out what I've learned! 🎨🔍
 
 ## ⚙️ Tech Stack 🚀
 
-- **HTML** 🌐
-- **CSS** 🎨
-- **JavaScript** 📜
-- **Git** 🗂️
-- **VS Code** 💻
+<p>
+  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo1.png" alt="HTML" title="HTML" /> 
+  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo2.png" alt="CSS" title="CSS" /> 
+  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo3.png" alt="JavaScript" title="JavaScript" /> 
+  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo4.png" alt="VS Code" title="VS Code" /> 
+</p>
 
 ---
