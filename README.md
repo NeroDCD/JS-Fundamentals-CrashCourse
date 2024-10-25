@@ -31,10 +31,10 @@ Feel free to check out what I've learned! 🎨🔍
 ## ⚙️ Tech Stack 🚀
 
 <p>
-  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo1.png" alt="HTML" title="HTML" /> 
-  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo2.png" alt="CSS" title="CSS" /> 
-  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo3.png" alt="JavaScript" title="JavaScript" /> 
-  <img src="https://github.com/NeroDCD/JS-Fundamentals-CrashCourse/blob/main/Assets/Logo4.png" alt="VS Code" title="VS Code" /> 
+  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo1.png" alt="HTML" title="HTML" /> 
+  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo2.png" alt="CSS" title="CSS" /> 
+  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo3.png" alt="JavaScript" title="JavaScript" /> 
+  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo4.png" alt="VS Code" title="VS Code" /> 
 </p>
 
 ---
