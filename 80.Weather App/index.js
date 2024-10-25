@@ -5,7 +5,7 @@
 // 📄 API Documentation:
 // - General Info: https://openweathermap.org/
 // - Current Weather: https://openweathermap.org/current
-// - Additional Weather Data: https://openweathermap.org/weather-co...
+// - Additional Weather Data: https://openweathermap.org/weather-conditions
 
 // 1️⃣ Fetching Weather Data
 // 📅 A form is created for users to input a city name and get the current weather.
