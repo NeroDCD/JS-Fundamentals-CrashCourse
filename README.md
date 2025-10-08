@@ -1,40 +1,33 @@
-# Project Overview 📝
+# Project Overview
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv" target="_blank">
-    <img src="https://img.youtube.com/vi/Ihy0QziLDf0/maxresdefault.jpg" alt="JavaScript tutorial for beginners 🌐" width="100%" />
-  </a>
-</p>
-
-**Tutorial Link:** [JavaScript Tutorial for Beginners 🌐](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv)
+**Tutorial Link:** [JavaScript Tutorial for Beginners](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv)
 
 ---
 
-## Status: `Completed ✅ (80/80)`
+## Status
+Completed (80/80)
 
-This repository tracks my learning experience with JavaScript while following the "JavaScript tutorial for beginners 🌐" by Bro Code. The goal was to get a solid understanding of the basics and how JavaScript works.
+This repository documents my learning journey with JavaScript while following the **“JavaScript Tutorial for Beginners”** series by Bro Code.  
+The goal was to build a solid foundation in JavaScript and understand how the language works.
 
-I went through the tutorial daily and covered topics like:
-- **Variables** 📦
-- **Data Types** 🏷️
-- **Loops** 🔄
-- **Functions** 🛠️
-- **Event Handling** 📅
-- **Etc.** 🔍
+Topics covered include:
+- Variables  
+- Data Types  
+- Loops  
+- Functions  
+- Event Handling  
+- And more
 
-Instead of just watching the videos, I also tweaked the examples and played around with the code to really get a feel for it. 🔧✨
+Instead of just watching the videos, I experimented with and modified the examples to reinforce what I learned.  
+Each file includes notes and brief explanations for clarity.
 
-For each `index.js` or JavaScript file I created, I added some documentation and simple explanations to help clarify what the code does.
+---
 
-Feel free to check out what I've learned! 🎨🔍
+## Tech Stack
 
-## ⚙️ Tech Stack 🚀
-
-<p>
-  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo1.png" alt="HTML" title="HTML" /> 
-  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo2.png" alt="CSS" title="CSS" /> 
-  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo3.png" alt="JavaScript" title="JavaScript" /> 
-  <img src="https://raw.githubusercontent.com/NeroDCD/JS-Fundamentals-CrashCourse/main/Assets/Logo4.png" alt="VS Code" title="VS Code" /> 
-</p>
+- HTML  
+- CSS  
+- JavaScript  
+- Visual Studio Code
 
 ---
