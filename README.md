@@ -1,4 +1,4 @@
-# Project Overview
+## 💻 Introduction
 
 **Tutorial Link:** [JavaScript Tutorial for Beginners](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv)
 
